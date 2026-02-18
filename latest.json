@@ -1,5 +1,6 @@
 {
   "latest_version": "0.0.2",
+  "min_supported_version": "0.0.1",
   "sha256": "fce36266aeda06bdab606fe9eb17719335214dff2578c34f66976a0285eea406",
   "download_url": "https://romm.melcosoft.cc/launcher/releases/0.0.2/package.zip",
   "mandatory": false,
