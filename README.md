@@ -19,12 +19,14 @@ The launcher backend periodically checks this repository (via HTTPS) to determin
 ├── latest.json
 ├── 0.0.2/
 │ └── package.zip
+│ └── release_manifest.json
 ├── 0.0.3/
 │ └── package.zip
+│ └── release_manifest.json
 └── ...
 ```
 
-Each version folder must contain exactly one `package.zip`. No other files are required.
+Each version directory represents a single immutable launcher release.
 
 ---
 
@@ -54,14 +56,68 @@ Example:
 }
 ```
 
-#### Fields
-
 - `latest_version [str]`: The newest available launcher bundle version.
 - `min_supported_version [str]`: The minimum launcher version allowed to update. If a client version is lower than this, it must be blocked and forced to update.
 - `sha256 [str]`: SHA256 hash of `package.zip`. Used by the launcher backend to verify integrity after download.
 - `download_url [str]`: Absolute HTTPS URL to the package.
 - `mandatory [bool]`: If true, the launcher must force update before continuing.
 - `release_notes [str]`: Optional user-facing text shown in update notification.
+
+### 📦 Release Directory
+
+Each version folder (e.g. `0.0.2/`) must contain:
+
+```
+0.0.2/
+├── package.zip
+└── release_manifest.json
+```
+
+#### package.zip
+
+This is the actual release bundle consumed by the launcher updater.
+
+It must contain:
+
+```
+package.zip
+├── release_manifest.json
+├── launcher/
+├── backend/
+├── service/
+├── roaming_playnite/ (optional)
+├── local_playnite/ (optional)
+└── programdata/ (optional)
+```
+
+The updater reads `release_manifest.json` to determine:
+
+- Which folders should be installed.
+- Where they should be installed.
+- Whether to merge, overwrite, or replace directories.
+- Whether backups are required.
+- How to handle `config.env`.
+
+The updater MUST NOT hardcode installation paths.
+All installation mapping is defined inside `release_manifest.json`.
+
+#### release_manifest.json
+
+This file contains metadata specific to that version.
+
+Example:
+
+```json
+{
+  "version": "0.0.2",
+  "release_date": "2026-02-17T20:00:00Z",
+  "notes": "Initial launcher updater test and release.",
+  "mandatory": false,
+  "min_supported_version": "0.0.1"
+}
+```
+
+`latest.json` acts as a pointer to the currently active release.
 
 ### 🚀 How To Publish a New Version
 
@@ -132,7 +188,6 @@ The server is configured to automatically pull changes. No manual deployment req
 - Never edit an old package.
 - Only update `latest.json` to point to a new version.
 - Always verify SHA256 before committing.
-- `latest.json` must always remain valid JSON.
 
 ### 🔄 Rollback Procedure
 
