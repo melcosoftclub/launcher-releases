@@ -8,7 +8,7 @@ It is the single source of truth for:
 - Versioned release folders (e.g. `0.0.2/`).
 - `package.zip` files used by the launcher auto-updater.
 
-The launcher backend periodically checks this repository (via HTTPS) to determine whether a new version is available.
+The launcher backend checks the server to determine whether a new version is available. The server is linked with this repo and periodically pulls the updates.
 
 ---
 
@@ -63,6 +63,12 @@ Example:
 - `mandatory [bool]`: If true, the launcher must force update before continuing.
 - `release_notes [str]`: Optional user-facing text shown in update notification.
 
+### Computing SHA256
+
+```
+certutil -hashfile package.zip SHA256
+```
+
 ### 📦 Release Directory
 
 Each version folder (e.g. `0.0.2/`) must contain:
@@ -103,17 +109,54 @@ All installation mapping is defined inside `release_manifest.json`.
 
 #### release_manifest.json
 
-This file contains metadata specific to that version.
+This file contains updated filesets, destinations, and modes for installation.
 
 Example:
 
 ```json
 {
   "version": "0.0.2",
-  "release_date": "2026-02-17T20:00:00Z",
-  "notes": "Initial launcher updater test and release.",
-  "mandatory": false,
-  "min_supported_version": "0.0.1"
+  "filesets": [
+    {
+      "source": "launcher/",
+      "dest": "install_dir_launcher",
+      "mode": "merge",
+      "backup": true
+    },
+    {
+      "source": "backend/",
+      "dest": "install_dir_backend",
+      "mode": "replace_dir",
+      "backup": true
+    },
+    {
+      "source": "service/",
+      "dest": "install_dir_service",
+      "mode": "overwrite",
+      "backup": true
+    },
+    {
+      "source": "roaming_playnite/",
+      "dest": "appdata_roaming_playnite",
+      "mode": "merge",
+      "backup": true
+    },
+    {
+      "source": "local_playnite/",
+      "dest": "appdata_local_playnite",
+      "mode": "merge",
+      "backup": true
+    },
+    {
+      "source": "programdata/",
+      "dest": "programdata_melcosoft",
+      "mode": "merge",
+      "backup": true
+    }
+  ],
+  "config_env": {
+    "policy": "merge_preserve"
+  }
 }
 ```
 

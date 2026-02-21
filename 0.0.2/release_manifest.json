@@ -1,0 +1,44 @@
+{
+    "version": "0.0.2",
+    "filesets": [
+        {
+            "source": "launcher/",
+            "dest": "install_dir_launcher",
+            "mode": "merge",
+            "backup": true
+        },
+        {
+            "source": "backend/",
+            "dest": "install_dir_backend",
+            "mode": "replace_dir",
+            "backup": true
+        },
+        {
+            "source": "service/",
+            "dest": "install_dir_service",
+            "mode": "overwrite",
+            "backup": true
+        },
+        {
+            "source": "roaming_playnite/",
+            "dest": "appdata_roaming_playnite",
+            "mode": "merge",
+            "backup": true
+        },
+        {
+            "source": "local_playnite/",
+            "dest": "appdata_local_playnite",
+            "mode": "merge",
+            "backup": true
+        },
+        {
+            "source": "programdata/",
+            "dest": "programdata_melcosoft",
+            "mode": "merge",
+            "backup": true
+        }
+    ],
+    "config_env": {
+        "policy": "merge_preserve"
+    }
+}
