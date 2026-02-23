@@ -20,6 +20,12 @@
             "backup": true
         },
         {
+            "source": "updater/",
+            "dest": "install_dir_updater_stage",
+            "mode": "replace_dir",
+            "backup": true
+        },
+        {
             "source": "roaming_playnite/",
             "dest": "appdata_roaming_playnite",
             "mode": "merge",
