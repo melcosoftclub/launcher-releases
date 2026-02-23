@@ -63,12 +63,6 @@ Example:
 - `mandatory [bool]`: If true, the launcher must force update before continuing.
 - `release_notes [str]`: Optional user-facing text shown in update notification.
 
-### Computing SHA256
-
-```
-certutil -hashfile package.zip SHA256
-```
-
 ### 📦 Release Directory
 
 Each version folder (e.g. `0.0.2/`) must contain:
@@ -182,6 +176,7 @@ On your local machine:
 
 ```bash
 sha256sum package.zip
+certutil -hashfile package.zip SHA256
 ```
 
 Copy the hash.

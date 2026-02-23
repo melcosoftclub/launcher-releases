@@ -31,7 +31,7 @@ C:\ProgramData\Melcosoft\Releases\{version}\
 - package.zip
 - package_manifest.json (extracted from zip)
 - backup\ (created during apply)
-- logs\updater.log (optional)
+- Logs\updater.log (optional)
 
 ### 1.3. Update package format (dynamic)
 
