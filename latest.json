@@ -1,7 +1,7 @@
 {
   "latest_version": "0.0.2",
   "min_supported_version": "0.0.1",
-  "sha256": "4a0433e36cec9140b967c940ffda839dd15aa999d8a74ba877ad8ae3ef020e84",
+  "sha256": "b9de6930f1f01a0f1dcf83d6f26bba3e070a1478b884c09839b500f0e8f4b5a6",
   "download_url": "https://launcher-releases.melc.cc/0.0.2/package.zip",
   "mandatory": false,
   "release_notes": "Initial launcher  updater test and release."

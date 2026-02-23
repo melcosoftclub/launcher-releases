@@ -175,8 +175,8 @@ Example: `1.0.3/package.zip`
 On your local machine:
 
 ```bash
-sha256sum package.zip
 certutil -hashfile package.zip SHA256
+sha256sum package.zip
 ```
 
 Copy the hash.
