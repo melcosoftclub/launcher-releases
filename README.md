@@ -5,7 +5,7 @@ This repository contains the **release artifacts** for the **Melcosoft Launcher*
 It is the single source of truth for:
 
 - `latest.json` (release metadata).
-- Versioned release folders (e.g. `0.0.2/`).
+- Versioned release folders (e.g. `0.0.0.2/`).
 - `package.zip` files used by the launcher auto-updater.
 
 The launcher backend checks the server to determine whether a new version is available. The server is linked with this repo and periodically pulls the updates.
@@ -17,7 +17,7 @@ The launcher backend checks the server to determine whether a new version is ava
 ```
 .
 ├── latest.json
-├── 0.0.2/
+├── 0.0.0.2/
 │ └── package.zip
 │ └── release_manifest.json
 ├── 0.0.3/
@@ -39,7 +39,7 @@ The launcher fetches:
 - Latest metadata: https://launcher-releases.melc.cc/latest.json
 - Version package: https://launcher-releases.melc.cc/<version>/package.zip
 
-Example: https://launcher-releases.melc.cc/0.0.2/package.zip
+Example: https://launcher-releases.melc.cc/0.0.0.2/package.zip
 
 ### 🧾 latest.json Structure
 
@@ -47,10 +47,10 @@ Example:
 
 ```json
 {
-  "latest_version": "0.0.2",
-  "min_supported_version": "0.0.1",
+  "latest_version": "0.0.0.2",
+  "min_supported_version": "0.0.0.1",
   "sha256": "fce36266aeda06bdab606fe9eb17719335214dff2578c34f66976a0285eea406",
-  "download_url": "https://launcher-releases.melc.cc/0.0.2/package.zip",
+  "download_url": "https://launcher-releases.melc.cc/0.0.0.2/package.zip",
   "mandatory": false,
   "release_notes": "Initial launcher updater test and release."
 }
@@ -65,10 +65,10 @@ Example:
 
 ### 📦 Release Directory
 
-Each version folder (e.g. `0.0.2/`) must contain:
+Each version folder (e.g. `0.0.0.2/`) must contain:
 
 ```
-0.0.2/
+0.0.0.2/
 ├── package.zip
 └── release_manifest.json
 ```
@@ -109,7 +109,7 @@ Example:
 
 ```json
 {
-  "version": "0.0.2",
+  "version": "0.0.0.2",
   "filesets": [
     {
       "source": "launcher/",
