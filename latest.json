@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.0.0.3",
-  "min_supported_version": "0.0.0.1",
-  "sha256": "33b7d42c1907b4636c03d71a077eec50ad236a63192c6684d877276741362de7",
-  "download_url": "https://launcher-releases.melc.cc/0.0.0.3/package.zip",
+  "latest_version": "0.0.0.4",
+  "min_supported_version": "0.0.0.3",
+  "sha256": "bf04f22c46dac0a47b0bda3627e33b075c9dc655a21527092c0396f56f990687",
+  "download_url": "https://launcher-releases.melc.cc/0.0.0.4/package.zip",
   "mandatory": false,
   "release_notes": "Major internal milestone release.\n\n- Fully integrated automatic updater with package verification and safe apply flow.\n- Backend service stabilization and improved startup reliability.\n- Playnite extension integration completed (catalog, install, update, uninstall, launch pipeline).\n- Improved service lifecycle management and recovery behavior.\n- Installer enhancements with selectable game download region (Europe, Russia, South America, China).\n\nNext:\n- Dynamic region switching inside Playnite UI.\n- Automatic region detection and fallback logic in backend.\n- Improved download resiliency and region failover."
 }
