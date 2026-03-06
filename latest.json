@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.2",
+  "latest_version": "3.0.0.3",
   "min_supported_version": "3.0.0.0",
-  "sha256": "bc91e7e1042775094feab9061af3b1bafd2d0e443637a66cb42a847119db4858",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.2/package.zip",
+  "sha256": "da4c8d9fc339655dc20c9c807f2159c6822b118a9c951353c5fe49a0b917105d",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.3/package.zip",
   "mandatory": false,
-  "release_notes": "UI fixes:\n- AssemblyTitle fix."
+  "release_notes": "Updater fixes:\n - Removed ugly cmd black screen when running update.\n\nUI fixes:\n- Removed Fullscreen mode on launch checkbox in settings."
 }

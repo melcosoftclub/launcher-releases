@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0.2",
+    "version": "3.0.0.3",
     "filesets": [
         {
             "source": "launcher/",
@@ -12,10 +12,16 @@
             "dest": "install_dir_backend",
             "mode": "replace_dir",
             "backup": true
+        },
+        {
+            "source": "updater/",
+            "dest": "install_dir_updater_stage",
+            "mode": "replace_dir",
+            "backup": true
         }
     ],
     "config_env": {
         "policy": "merge_preserve"
     },
-    "release_notes": "UI fixes:\n- AssemblyTitle fix."
+    "release_notes": "UI fixes:\n- Removed Fullscreen mode on launch checkbox in settings."
 }
