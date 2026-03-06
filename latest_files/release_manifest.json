@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0.3",
+    "version": "3.0.0.4",
     "filesets": [
         {
             "source": "launcher/",
@@ -23,5 +23,5 @@
     "config_env": {
         "policy": "merge_preserve"
     },
-    "release_notes": "UI fixes:\n- Removed Fullscreen mode on launch checkbox in settings."
+    "release_notes": "Updater:\n- Removed black scary CMD screen during update."
 }
