@@ -20,7 +20,7 @@ The launcher backend checks the server to determine whether a new version is ava
 ├── 0.0.0.2/
 │ └── package.zip
 │ └── release_manifest.json
-├── 0.0.3/
+├── 0.0.0.3/
 │ └── package.zip
 │ └── release_manifest.json
 └── ...
