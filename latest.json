@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.0",
+  "latest_version": "3.0.0.1",
   "min_supported_version": "3.0.0.0",
-  "sha256": "bf04f22c46dac0a47b0bda3627e33b075c9dc655a21527092c0396f56f990687",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.0/package.zip",
+  "sha256": "97c0afdec9749917f91534fc083170369681f847c67b2248ab3b6efac2fe062d",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.1/package.zip",
   "mandatory": false,
-  "release_notes": "Major internal milestone release.\n\n- Fully integrated automatic updater with package verification and safe apply flow.\n- Backend service stabilization and improved startup reliability.\n- Playnite extension integration completed (catalog, install, update, uninstall, launch pipeline).\n- Improved service lifecycle management and recovery behavior.\n- Installer enhancements with selectable game download region (Europe, Russia, South America, China).\n\nNext:\n- Dynamic region switching inside Playnite UI.\n- Automatic region detection and fallback logic in backend.\n- Improved download resiliency and region failover."
+  "release_notes": "Usability fixes:\n- Download now uses installation dir instead of C temp dir.\n\nUI fixes:\n- MainWindow title fix. "
 }
