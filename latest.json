@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.1",
+  "latest_version": "3.0.0.2",
   "min_supported_version": "3.0.0.0",
-  "sha256": "97c0afdec9749917f91534fc083170369681f847c67b2248ab3b6efac2fe062d",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.1/package.zip",
+  "sha256": "bc91e7e1042775094feab9061af3b1bafd2d0e443637a66cb42a847119db4858",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.2/package.zip",
   "mandatory": false,
-  "release_notes": "Usability fixes:\n- Download now uses installation dir instead of C temp dir.\n\nUI fixes:\n- MainWindow title fix. "
+  "release_notes": "UI fixes:\n- AssemblyTitle fix."
 }
