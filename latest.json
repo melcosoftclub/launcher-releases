@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.6",
+  "latest_version": "3.0.0.7",
   "min_supported_version": "3.0.0.0",
-  "sha256": "ac0b2cad08a9a34a8159cbd6b0bbc8096c6e60cbfc1f3ca42b5d2b62ecf1507d",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.6/package.zip",
-  "release_notes": "UI:\n- Enhanced download progress bar footer.\n\nUpdater:\n Added update handoff to newer version logic.",
+  "sha256": "fcc59fa7687da45e990c98d28fcc981e7fb3bf0c07583d77579675dafed7c8af",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.7/package.zip",
+  "release_notes": "Updater:\n Added update handoff to newer version logic.",
   "mandatory": false
 }
