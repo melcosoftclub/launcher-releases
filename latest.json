@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.4",
+  "latest_version": "3.0.0.5",
   "min_supported_version": "3.0.0.0",
-  "sha256": "14fc35387c7df197a2b9a678b0699fdf3f527025fb909c8c08282e9cfb89c4fe",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.4/package.zip",
+  "sha256": "49e9f5cbd5dbefdd1ff3da7a01e675e82f07702a2e8b1bfcbd346c04cc1849aa",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.5/package.zip",
   "mandatory": false,
-  "release_notes": "Updater:\n- Removed black scary CMD screen during update..\n\nUI:\n- Removed Fullscreen mode on launch checkbox in settings."
+  "release_notes": "UI:\n- Added download progress bar footer.\n\nBackend:\n- Fixed entry_exe not found bug.\n\nUpdater:\n- Added existing dir/file management support.\n\nRelease:\n- Release logic refactoring."
 }

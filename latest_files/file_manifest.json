@@ -1,0 +1,34 @@
+{
+    "merge": [
+        {
+            "source": "launcher/",
+            "dest": "install_dir_launcher",
+            "backup": true
+        },
+        {
+            "source": "roaming_playnite/",
+            "dest": "appdata_roaming_playnite",
+            "backup": true
+        }
+    ],
+    "replace_dir": [
+        {
+            "source": "backend/",
+            "dest": "install_dir_backend",
+            "backup": true
+        },
+        {
+            "source": "updater/",
+            "dest": "install_dir_updater_stage",
+            "backup": true
+        }
+    ],
+    "delete": [
+        {
+            "dest": "appdata_roaming_playnite",
+            "path": "Extensions/Achievements",
+            "backup": true,
+            "recursive": true
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "merge": [
+        {
+            "source": "launcher/",
+            "dest": "install_dir_launcher",
+            "backup": true
+        },
+        {
+            "source": "roaming_playnite/",
+            "dest": "appdata_roaming_playnite",
+            "backup": true
+        },
+        {
+            "source": "local_playnite/",
+            "dest": "appdata_local_playnite",
+            "backup": true
+        },
+        {
+            "source": "programdata/",
+            "dest": "programdata_melcosoft",
+            "backup": true
+        }
+    ],
+    "overwrite": [
+        {
+            "source": "service/",
+            "dest": "install_dir_service",
+            "backup": true
+        }
+    ],
+    "replace_dir": [
+        {
+            "source": "backend/",
+            "dest": "install_dir_backend",
+            "backup": true
+        },
+        {
+            "source": "updater/",
+            "dest": "install_dir_updater_stage",
+            "backup": true
+        }
+    ],
+    "delete": [
+        {
+            "dest": "appdata_roaming_playnite",
+            "path": "Extensions/Achievements",
+            "backup": true,
+            "recursive": true
+        },
+        {
+            "dest": "programdata_melcosoft",
+            "path": "obsolete_cache/old.json",
+            "backup": true
+        }
+    ]
+}
