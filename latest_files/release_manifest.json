@@ -1,6 +1,6 @@
 {
-    "version": "3.0.0.7",
-    "release_notes": "UI:\n- Enhanced download progress bar footer.\n\nUpdater:\n- Added update handoff to newer version logic.",
+    "version": "3.0.0.8",
+    "release_notes": "UI:\n- Background sync now uses footer progress bar.\n- Added proper icons for links.\n- Added sync button in the header.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"

@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.7",
+  "latest_version": "3.0.0.8",
   "min_supported_version": "3.0.0.0",
-  "sha256": "7920f162f567344752a194ef23e58dcff54227deb841f1a2e4b920e3c7ceb348",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.7/package.zip",
-  "release_notes": "UI:\n- Enhanced download progress bar footer.\n\nUpdater:\n- Added update handoff to newer version logic.",
+  "sha256": "306812f0d5f7ca30f2101801c606ffe01c84c31b1700ffe6360ef8747aefcba7",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.8/package.zip",
+  "release_notes": "UI:\n- Background sync now uses footer progress bar.\n- Added proper icons for links.\n- Added sync button in the header.",
   "mandatory": false
 }
