@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.8",
+  "latest_version": "3.0.0.9",
   "min_supported_version": "3.0.0.0",
-  "sha256": "306812f0d5f7ca30f2101801c606ffe01c84c31b1700ffe6360ef8747aefcba7",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.8/package.zip",
-  "release_notes": "UI:\n- Background sync now uses footer progress bar.\n- Added proper icons for links.\n- Added sync button in the header.",
+  "sha256": "9a568f7153e2bb9b2e8cf4a9222c0f9ea1c3439367f98ad138909dd4a063e2e9",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.9/package.zip",
+  "release_notes": "UI:\n- Fixed icons.\n\nBackend:\n- Changed release check from 4 hours to every 30 minutes.\n- 'Sync' button now also checks for updates.",
   "mandatory": false
 }
