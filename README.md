@@ -175,8 +175,6 @@ Example: `1.0.3/package.zip`
 On your local machine:
 
 ```bash
-cd V:\git\melcosoft-launcher-3.0\Melcosoft.Releases
-V:
 certutil -hashfile package.zip SHA256
 sha256sum package.zip
 ```
