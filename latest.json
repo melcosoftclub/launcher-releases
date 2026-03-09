@@ -1,8 +1,8 @@
 {
   "latest_version": "3.0.0.9",
   "min_supported_version": "3.0.0.0",
-  "sha256": "9a568f7153e2bb9b2e8cf4a9222c0f9ea1c3439367f98ad138909dd4a063e2e9",
+  "sha256": "809b24490178bd83960a6555922d492c43347b06458592df940610e826f7998d",
   "download_url": "https://launcher-releases.melc.cc/3.0.0.9/package.zip",
-  "release_notes": "UI:\n- Fixed icons.\n\nBackend:\n- Changed release check from 4 hours to every 30 minutes.\n- 'Sync' button now also checks for updates.",
+  "release_notes": "UI:\n- Fixed icons.\n\nBackend:\n- Added Melcosoft to BuiltinExtensionIds.\n- Changed release check from 4 hours to every 30 minutes.\n- 'Sync' button now also checks for updates.",
   "mandatory": false
 }
