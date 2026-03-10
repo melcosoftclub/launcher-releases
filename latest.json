@@ -1,7 +1,7 @@
 {
   "latest_version": "3.0.0.10",
   "min_supported_version": "3.0.0.0",
-  "sha256": "4cb38e64dadceb82fbe268b11329ab75619a6b7152d9856fb9b246c24ed180b0",
+  "sha256": "b2c8b0783196c99f7493e96998d78ffcd380c5174d8ca48f3410d08f4bb4d07a",
   "download_url": "https://launcher-releases.melc.cc/3.0.0.10/package.zip",
   "release_notes": "UI:\n- Rewrote sync notifications logic. It will now create a notification only when N Created > 0 or N Updated > 0, with game titles.\n\nBackend:/n- Fixed issue when game had 2 or more play options and the launcher couldn't start the game.\n- Fixed bug when game had 2 or more play options and it would only launch 1st default option no matter what the user chose.\n\nUpdater:\n- Added updater progress UI.",
   "mandatory": false
