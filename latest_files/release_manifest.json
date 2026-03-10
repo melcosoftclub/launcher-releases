@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0.13",
+    "version": "3.0.0.14",
     "release_notes": "Backend:\n- Fixed cover image not updating (sync).\n- Fixed game not updating.\n- Fixed bug when game was recognized as uninstalled, when installed into existing directory.\n- Fixed repair function.\n- Fixed bug where game wouldn't launch after update.",
     "mandatory": true,
     "config_env": {

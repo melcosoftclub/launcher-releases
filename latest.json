@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.13",
+  "latest_version": "3.0.0.14",
   "min_supported_version": "3.0.0.0",
-  "sha256": "aed048b34faa5c1d8007f03809c3af5e52ee737cb82e6d2f7c32ca48453584c3",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.13/package.zip",
+  "sha256": "11b45f24b71fe8a38c656e4b05775418c4637f7b4c77953c0583d674a1cdd781",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.14/package.zip",
   "release_notes": "Backend:\n- Fixed cover image not updating (sync).\n- Fixed game not updating.\n- Fixed bug when game was recognized as uninstalled, when installed into existing directory.\n- Fixed repair function.\n- Fixed bug where game wouldn't launch after update.",
   "mandatory": false
 }
