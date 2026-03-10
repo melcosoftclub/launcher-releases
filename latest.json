@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.12",
+  "latest_version": "3.0.0.13",
   "min_supported_version": "3.0.0.0",
-  "sha256": "a8bfbd6bdd1b5bfe6556157e98f7bc78374270a54763f099fb5091136bbdd194",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.12/package.zip",
-  "release_notes": "UI:\n- Rewrote sync notifications logic. It will now create a notification only when N Created > 0 or N Updated > 0, with game titles.\n\nBackend:\n- Fixed issue when game had 2 or more play options and the launcher couldn't start the game.\n- Fixed bug when game had 2 or more play options and it would only launch 1st default option no matter what the user chose.\n\nUpdater:\n- Added updater progress UI.",
+  "sha256": "aed048b34faa5c1d8007f03809c3af5e52ee737cb82e6d2f7c32ca48453584c3",
+  "download_url": "https://launcher-releases.melc.cc/3.0.0.13/package.zip",
+  "release_notes": "Backend:\n- Fixed cover image not updating (sync).\n- Fixed game not updating.\n- Fixed bug when game was recognized as uninstalled, when installed into existing directory.\n- Fixed repair function.\n- Fixed bug where game wouldn't launch after update.",
   "mandatory": false
 }

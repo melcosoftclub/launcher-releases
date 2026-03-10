@@ -1,0 +1,8 @@
+{
+    "version": "3.0.0.5",
+    "release_notes": "UI:\n- Added download progress bar footer.\n\nBackend:\n- Fixed entry_exe not found bug.\n\nUpdater:\n- Added existing dir/file management support.\n\nRelease:\n- Release logic refactoring.",
+    "mandatory": true,
+    "config_env": {
+        "policy": "merge_preserve"
+    }
+}

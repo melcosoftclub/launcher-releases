@@ -1,0 +1,16 @@
+{
+    "version": "3.0.0.10",
+    "release_notes": "UI:\n- Rewrote sync notifications logic. It will now create a notification only when N Created > 0 or N Updated > 0, with game titles.\n\nBackend:\n- Fixed issue when game had 2 or more play options and the launcher couldn't start the game.\n- Fixed bug when game had 2 or more play options and it would only launch 1st default option no matter what the user chose.\n\nUpdater:\n- Added updater progress UI.",
+    "mandatory": true,
+    "config_env": {
+        "policy": "merge_preserve"
+    },
+    "filesets": [
+        {
+            "source": "updater/",
+            "dest": "install_dir_updater_stage",
+            "mode": "replace_dir",
+            "backup": true
+        }
+    ]
+}
