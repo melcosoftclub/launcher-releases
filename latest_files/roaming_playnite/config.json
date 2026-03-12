@@ -505,7 +505,7 @@
   "IncludeCommandsInDefaultSearch": true,
   "AutoBackupEnabled": true,
   "AutoBackupFrequency": 1,
-  "AutoBackupDir": "%LOCALAPPDATA%\\Melcosoft\\Backup",
+  "AutoBackupDir": "",
   "RotatingBackups": 3,
   "AutoBackupIncludeLibFiles": false,
   "AutoBackupIncludeExtensionsData": false,

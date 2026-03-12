@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.0",
-    "release_notes": "UI:\n- Added WebView.\n- Added automatic game description translation.\n- Removed filtering.\n\nBackend:\n- Fixed config reload logic.\n- Fixed launcher automatic update check.\n- Updated launcher config to improve performance and changed backup directory.\n- Added better logging.\n\nUpdater:\n- Fixed progress logic and UI.",
+    "version": "3.0.1.1",
+    "release_notes": "Testing the stability of 3.0.1.0 release.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"
