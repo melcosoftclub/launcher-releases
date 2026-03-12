@@ -1,16 +1,8 @@
 {
-    "version": "3.0.0.15",
-    "release_notes": "Backend:\n- Testing update check frequency.",
+    "version": "3.0.1.0",
+    "release_notes": "UI:\n- Added WebView.\n- Added automatic game description translation.\n- Removed filtering.\n\nBackend:\n- Fixed config reload logic.\n- Fixed launcher automatic update check.\n- Updated launcher config to improve performance and changed backup directory.\n- Added better logging.\n\nUpdater:\n- Fixed progress logic and UI.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"
-    },
-    "filesets": [
-        {
-            "source": "updater/",
-            "dest": "install_dir_updater_stage",
-            "mode": "replace_dir",
-            "backup": true
-        }
-    ]
+    }
 }

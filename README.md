@@ -50,7 +50,7 @@ Example:
   "latest_version": "0.0.0.2",
   "min_supported_version": "0.0.0.1",
   "sha256": "fce36266aeda06bdab606fe9eb17719335214dff2578c34f66976a0285eea406",
-  "download_url": "https://launcher-releases.melc.cc/0.0.0.2/package.zip",
+  "download_endpoint": "0.0.0.2/package.zip",
   "mandatory": false,
   "release_notes": "Initial launcher updater test and release."
 }
@@ -59,7 +59,7 @@ Example:
 - `latest_version [str]`: The newest available launcher bundle version.
 - `min_supported_version [str]`: The minimum launcher version allowed to update. If a client version is lower than this, it must be blocked and forced to update.
 - `sha256 [str]`: SHA256 hash of `package.zip`. Used by the launcher backend to verify integrity after download.
-- `download_url [str]`: Absolute HTTPS URL to the package.
+- `download_endpoint [str]`: Endpoint to the package.
 - `mandatory [bool]`: If true, the launcher must force update before continuing.
 - `release_notes [str]`: Optional user-facing text shown in update notification.
 
@@ -193,7 +193,7 @@ Update:
 - `latest_version`
 - `min_supported_version` (if needed)
 - `sha256`
-- `download_url`
+- `download_endpoint`
 - `mandatory`
 - `release_notes`
 
@@ -204,7 +204,7 @@ Example:
   "latest_version": "1.0.3",
   "min_supported_version": "0.9.0",
   "sha256": "NEW_SHA256_HASH",
-  "download_url": "https://launcher-releases.melc.cc/1.0.3/package.zip",
+  "download_endpoint": "3.0.0.0/package.zip",
   "mandatory": false,
   "release_notes": "Bug fixes and backend improvements."
 }

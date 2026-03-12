@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.0.15",
+  "latest_version": "3.0.1.0",
   "min_supported_version": "3.0.0.0",
-  "sha256": "81997a62ffc5a881563396c88092ec00b694b161c9a5a56962575d79734b17d8",
-  "download_url": "https://launcher-releases.melc.cc/3.0.0.15/package.zip",
-  "release_notes": "Backend:\n- Testing update check frequency.",
+  "sha256": "29f1e6e35dc7dfc46c741a4dad32e7dc174fe2229ddaf31ebe307d054012efae",
+  "download_endpoint": "3.0.1.0/package.zip",
+  "release_notes": "UI:\n- Added WebView.\n- Added automatic game description translation.\n- Removed filtering.\n\nBackend:\n- Fixed config reload logic.\n- Fixed launcher automatic update check.\n- Updated launcher config to improve performance and changed backup directory.\n- Added better logging.\n\nUpdater:\n- Fixed progress logic and UI.",
   "mandatory": false
 }
