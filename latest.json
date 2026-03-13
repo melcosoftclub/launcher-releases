@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.1",
+  "latest_version": "3.0.1.2",
   "min_supported_version": "3.0.0.0",
-  "sha256": "e24bf92bcddd1c9a56cd765dd1555b835d3eca5cb9a2d7cbe3d2ea6d0483c8cf",
-  "download_endpoint": "3.0.1.1/package.zip",
+  "sha256": "855eccfd96aaadfb03df3a7dfe63accd3c95b2843f61c5f1e895744051593e4e",
+  "download_endpoint": "3.0.1.2/package.zip",
   "release_notes": "Testing the stability of 3.0.1.0 release.",
   "mandatory": false
 }

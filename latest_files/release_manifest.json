@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1.1",
+    "version": "3.0.1.2",
     "release_notes": "Testing the stability of 3.0.1.0 release.",
     "mandatory": true,
     "config_env": {
