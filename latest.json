@@ -3,6 +3,6 @@
   "min_supported_version": "3.0.0.0",
   "sha256": "7d31931f93c9339aac1345aa7df8a020d823e5b4a6ab4115794b4b17cc33490f",
   "download_endpoint": "3.0.1.3/package.zip",
-  "release_notes": "Testing the stability of 3.0.1.0 release.",
+  "release_notes": "Fullscreen mode:\n- Fixed Fullscreen mode icons, splashscreen.\n- Added Melcosoft links.\n- Added localization for links.\n\nDesktop mode:\n- Fixed download and sync cancellation issue.\n- Added localization.\n- Added About Melcosoft page.\n- Fixed Select Region page.\n\nUpdater:\n- Working on service start issue.\n\nOther:\n- Added Discord support.",
   "mandatory": false
 }
