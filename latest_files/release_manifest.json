@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.4",
-    "release_notes": "Fullscreen mode:\n- Fixed Fullscreen mode icons, splashscreen.\n- Added Melcosoft links.\n- Added localization for links.\n\nDesktop mode:\n- Added pause to game installation.\n- Fixed download and sync cancellation issue.\n- Added localization.\n- Added About Melcosoft page.\n- Fixed Select Region page.\n\nUpdater:\n- Working on service start issue.\n\nOther:\n- Added Discord support.",
+    "version": "3.0.1.5",
+    "release_notes": "Backend:\n- Increased read and download timeout period.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"
