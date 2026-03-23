@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.5",
-    "release_notes": "Backend:\n- Increased read and download timeout period.",
+    "version": "3.0.1.6",
+    "release_notes": "English version:\nBackend:\n- Increased download batch size.\n- Increased download timeout period.\n- Added read/download retries.\n\nРусская версия:\nБэкэнд:\n- Увеличен размер пакета загрузки.\n- Увеличен таймаут загрузки.\n- Добавлены повторные попытки чтения/скачивания.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"
