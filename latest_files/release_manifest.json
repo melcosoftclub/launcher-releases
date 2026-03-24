@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1.8",
+    "version": "3.0.1.9",
     "release_notes": "English version:\nBackend:\n- Large single files are now downloaded in parallel.\nUpdater:\n- Fixed service start issue.\n\nРусская версия:\nБэкэнд:\n- Добавлена параллельная загрузка больших файлов.\nАпдейтер:\n- Исправлена ​​проблема с запуском службы.",
     "mandatory": false,
     "config_env": {
