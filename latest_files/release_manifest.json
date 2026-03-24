@@ -1,7 +1,7 @@
 {
-    "version": "3.0.1.7",
-    "release_notes": "English version:\nBackend:\n- Added Range Byte download branch for large files.\n- Removed translation notifications.\n\nРусская версия:\nБэкэнд:\n- Добавлена ​​ветка загрузки Range Byte для больших файлов.\n- Удалены уведомления о переводе.",
-    "mandatory": true,
+    "version": "3.0.1.8",
+    "release_notes": "English version:\nBackend:\n- Large single files are now downloaded in parallel.\nUpdater:\n- Fixed service start issue.\n\nРусская версия:\nБэкэнд:\n- Добавлена параллельная загрузка больших файлов.\nАпдейтер:\n- Исправлена ​​проблема с запуском службы.",
+    "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"
     }
