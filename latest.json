@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.8",
+  "latest_version": "3.0.1.7",
   "min_supported_version": "3.0.1.0",
-  "sha256": "fe2e7eb6ae62af8100cf691687418861a3e49333fdba9bbfea833f74920e08b9",
-  "download_endpoint": "3.0.1.8/package.zip",
+  "sha256": "d7402d88e0271794a6668587c85edee969547847c662889eb6db01af9c5db151",
+  "download_endpoint": "3.0.1.7/package.zip",
   "release_notes": "English version:\nBackend:\n- Large single files are now downloaded in parallel.\nUpdater:\n- Fixed service start issue.\n\nРусская версия:\nБэкэнд:\n- Добавлена параллельная загрузка больших файлов.\nАпдейтер:\n- Исправлена ​​проблема с запуском службы.",
   "mandatory": false
 }
