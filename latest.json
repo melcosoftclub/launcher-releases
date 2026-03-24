@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.6",
+  "latest_version": "3.0.1.7",
   "min_supported_version": "3.0.1.0",
-  "sha256": "5daa0781fe8b7ecebb3d1b0152728d62f3d1cd3c6d3c495950a30e3db319efd1",
-  "download_endpoint": "3.0.1.6/package.zip",
-  "release_notes": "English version:\nBackend:\n- Increased download batch size.\n- Increased download timeout period.\n- Added read/download retries.\n\nРусская версия:\nБэкэнд:\n- Увеличен размер пакета загрузки.\n- Увеличен таймаут загрузки.\n- Добавлены повторные попытки чтения/скачивания.",
+  "sha256": "d7402d88e0271794a6668587c85edee969547847c662889eb6db01af9c5db151",
+  "download_endpoint": "3.0.1.7/package.zip",
+  "release_notes": "English version:\nBackend:\n- Added Range Byte download branch for large files.\n- Removed translation notifications.\n\nРусская версия:\nБэкэнд:\n- Добавлена ​​ветка загрузки Range Byte для больших файлов.\n- Удалены уведомления о переводе.",
   "mandatory": false
 }

@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.6",
-    "release_notes": "English version:\nBackend:\n- Increased download batch size.\n- Increased download timeout period.\n- Added read/download retries.\n\nРусская версия:\nБэкэнд:\n- Увеличен размер пакета загрузки.\n- Увеличен таймаут загрузки.\n- Добавлены повторные попытки чтения/скачивания.",
+    "version": "3.0.1.7",
+    "release_notes": "English version:\nBackend:\n- Added Range Byte download branch for large files.\n- Removed translation notifications.\n\nРусская версия:\nБэкэнд:\n- Добавлена ​​ветка загрузки Range Byte для больших файлов.\n- Удалены уведомления о переводе.",
     "mandatory": true,
     "config_env": {
         "policy": "merge_preserve"
