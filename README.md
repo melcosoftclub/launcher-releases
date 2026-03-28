@@ -1,3 +1,7 @@
+```
+certutil -hashfile package.zip SHA256
+```
+
 # Melcosoft Launcher Releases
 
 This repository contains the **release artifacts** for the **Melcosoft Launcher** updater system.

@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.9",
+  "latest_version": "3.0.1.10",
   "min_supported_version": "3.0.1.0",
-  "sha256": "b1cf280fc338c68e78e6abbcf2af762a48a21190ed4f288c4d4a6fcd86f698a0",
-  "download_endpoint": "3.0.1.9/package.zip",
-  "release_notes": "English version:\nBackend:\n- Large single files are now downloaded in parallel.\nUpdater:\n- Fixed service start issue.\n\nРусская версия:\nБэкэнд:\n- Добавлена параллельная загрузка больших файлов.\nАпдейтер:\n- Исправлена ​​проблема с запуском службы.",
+  "sha256": "02d0b4d107224088a9b013ea7cd5dd20326cecab6025cb0b566eed3601130a23",
+  "download_endpoint": "3.0.1.10/package.zip",
+  "release_notes": "English version:\nGeneral:\n- Improved localization.\n- Fixed launcher lag when switching games.\n- Removed redundant UI items.\nUpdater:\n- New logo icons.\n- Added config logic.\n\nРусская версия:\nОбщие:\n- Улучшена локализация.\n- Исправлена ​​задержка лаунчера при переключении игр.\n- Удалены лишние элементы UI.\nАпдейтер:\n- Новые значки логотипа.\n- Добавлена ​​логика config.",
   "mandatory": false
 }
