@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Instal game</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Copot pemasangan game</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Perbarui game</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Perbaiki file game</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Verifikasi file game</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Menginstal {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Mencopot pemasangan {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Memperbarui {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Memperbaiki {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Memverifikasi {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Menyegarkan {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Menginstal</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Mencopot pemasangan</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Memperbarui</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Memperbaiki</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Memverifikasi</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Menyegarkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Menyinkronkan dengan Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Sedang bekerja</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Berjalan</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Menjeda</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Membatalkan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Mengunduh file</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Mengekstrak file</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Memvalidasi file</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Memperbaiki file</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Menyelesaikan pemasangan</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Menyiapkan unduhan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Pemasangan gagal: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Pencopotan pemasangan gagal: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Pembaruan gagal: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Perbaikan gagal: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Verifikasi gagal: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sinkronisasi dengan Melcosoft gagal: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Pemasangan dibatalkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Pencopotan pemasangan dibatalkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Perbaikan dibatalkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Verifikasi dibatalkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sinkronisasi dengan Melcosoft dibatalkan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Gagal membuat folder instalasi: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl belum dikonfigurasi. Silakan hubungi dukungan.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Selesai</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Dibatalkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Gagal</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Dalam antrean</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Dijeda</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Silakan hubungi dukungan.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Main</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Batal</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Tutup</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Terapkan</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Jeda</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Lanjutkan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Menyinkronkan pustaka Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Menyinkronkan dengan Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Menyelesaikan sinkronisasi dengan Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Sinkronisasi dengan Melcosoft selesai.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Dibuat: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Diperbarui: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sinkronkan data Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Pilih wilayah unduhan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Gagal menetapkan wilayah: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Pilih wilayah server untuk mengunduh game Anda.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Wilayah</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Eropa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusia</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Amerika Selatan</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Tiongkok</sys:String>
+
+</ResourceDictionary>

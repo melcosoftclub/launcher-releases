@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Játék telepítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Játék eltávolítása</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Játék frissítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Játékfájlok javítása</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Játékfájlok ellenőrzése</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">{0} telepítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">{0} eltávolítása</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">{0} frissítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">{0} javítása</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">{0} ellenőrzése</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">{0} frissítése</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Telepítés</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Eltávolítás</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Frissítés</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Javítás</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Ellenőrzés</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Frissítés</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Szinkronizálás a Melcosofttal...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Folyamatban</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Fut</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Szüneteltetés</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Megszakítás</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Fájlok letöltése</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Fájlok kicsomagolása</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Fájlok érvényesítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Fájlok javítása</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Telepítés véglegesítése</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Letöltés előkészítése</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">A telepítés sikertelen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Az eltávolítás sikertelen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">A frissítés sikertelen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">A javítás sikertelen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Az ellenőrzés sikertelen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">A Melcosofttal való szinkronizálás sikertelen: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">A telepítés megszakítva</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Az eltávolítás megszakítva</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">A javítás megszakítva</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Az ellenőrzés megszakítva</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">A Melcosofttal való szinkronizálás megszakítva</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Nem sikerült létrehozni a telepítési mappát: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">A BackendBaseUrl nincs beállítva. Kérjük, lépjen kapcsolatba a támogatással.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Kész</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Megszakítva</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Sikertelen</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Sorban</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Szüneteltetve</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Kérjük, lépjen kapcsolatba a támogatással.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Játék indítása</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Mégse</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Bezárás</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Alkalmaz</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Szünet</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Folytatás</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Melcosoft könyvtár szinkronizálása... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Szinkronizálás a Melcosofttal... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Szinkronizálás véglegesítése a Melcosofttal...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">A Melcosofttal való szinkronizálás befejeződött.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Létrehozva: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Frissítve: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft adatok szinkronizálása</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Letöltési régió kiválasztása</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Nem sikerült beállítani a régiót: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Válassza ki a szerver régióját a játék letöltéséhez.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Régió</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Európa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Oroszország</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Dél-Amerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Kína</sys:String>
+
+</ResourceDictionary>

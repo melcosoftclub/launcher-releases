@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">تثبيت اللعبة</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">إلغاء تثبيت اللعبة</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">تحديث اللعبة</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">إصلاح ملفات اللعبة</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">التحقق من ملفات اللعبة</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">جارٍ تثبيت {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">جارٍ إلغاء تثبيت {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">جارٍ تحديث {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">جارٍ إصلاح {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">جارٍ التحقق من {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">جارٍ تحديث {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">جارٍ التثبيت</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">جارٍ إلغاء التثبيت</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">جارٍ التحديث</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">جارٍ الإصلاح</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">جارٍ التحقق</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">جارٍ التحديث</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">جارٍ المزامنة مع Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">جارٍ العمل</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">قيد التشغيل</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">جارٍ الإيقاف المؤقت</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">جارٍ الإلغاء</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">جارٍ تنزيل الملفات</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">جارٍ استخراج الملفات</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">جارٍ التحقق من صحة الملفات</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">جارٍ إصلاح الملفات</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">جارٍ إنهاء التثبيت</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">جارٍ تحضير التنزيل</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">فشل التثبيت: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">فشل إلغاء التثبيت: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">فشل التحديث: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">فشل الإصلاح: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">فشل التحقق: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">فشلت المزامنة مع Melcosoft: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">تم إلغاء التثبيت</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">تم إلغاء إلغاء التثبيت</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">تم إلغاء الإصلاح</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">تم إلغاء التحقق</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">تم إلغاء المزامنة مع Melcosoft</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">فشل إنشاء مجلد التثبيت: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">لم يتم تكوين BackendBaseUrl. يرجى الاتصال بالدعم.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">مكتمل</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">ملغي</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">فشل</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">في الانتظار</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">متوقف مؤقتًا</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">يرجى الاتصال بالدعم.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">تشغيل</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">إلغاء</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">إغلاق</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">تطبيق</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">إيقاف مؤقت</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">استئناف</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">جارٍ مزامنة مكتبة Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">جارٍ المزامنة مع Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">جارٍ إنهاء المزامنة مع Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">اكتملت المزامنة مع Melcosoft.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">تم الإنشاء: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">تم التحديث: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">مزامنة بيانات Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">اختر منطقة التنزيل</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">فشل تعيين المنطقة: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">اختر منطقة الخادم لتنزيل لعبتك.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">المنطقة</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">أوروبا</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">روسيا</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">أمريكا الجنوبية</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">الصين</sys:String>
+
+</ResourceDictionary>

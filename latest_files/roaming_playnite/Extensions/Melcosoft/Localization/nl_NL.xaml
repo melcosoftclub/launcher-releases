@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Game installeren</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Game verwijderen</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Game bijwerken</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Gamebestanden repareren</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Gamebestanden verifiëren</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">{0} installeren</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">{0} verwijderen</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">{0} bijwerken</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">{0} repareren</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">{0} verifiëren</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">{0} vernieuwen</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Installeren</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Verwijderen</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Bijwerken</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Repareren</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Verifiëren</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Vernieuwen</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Synchroniseren met Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Bezig</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Actief</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Pauzeren</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Annuleren</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Bestanden downloaden</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Bestanden uitpakken</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Bestanden valideren</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Bestanden repareren</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Installatie voltooien</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Download voorbereiden</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Installatie mislukt: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Verwijderen mislukt: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Bijwerken mislukt: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Repareren mislukt: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Verifiëren mislukt: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Synchroniseren met Melcosoft mislukt: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Installatie geannuleerd</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Verwijderen geannuleerd</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Repareren geannuleerd</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Verifiëren geannuleerd</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Synchroniseren met Melcosoft geannuleerd</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Kan installatiemap niet maken: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl is niet geconfigureerd. Neem contact op met de ondersteuning.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Voltooid</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Geannuleerd</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Mislukt</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">In wachtrij</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Gepauzeerd</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Neem contact op met de ondersteuning.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Spelen</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Annuleren</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Sluiten</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Toepassen</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pauze</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Hervatten</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Melcosoft-bibliotheek synchroniseren... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Synchroniseren met Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Synchronisatie met Melcosoft voltooien...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Synchronisatie met Melcosoft voltooid.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Aangemaakt: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Bijgewerkt: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft-gegevens synchroniseren</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Downloadregio selecteren</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Kan regio niet instellen: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Kies de serverregio om je game te downloaden.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Regio</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusland</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Zuid-Amerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
+
+</ResourceDictionary>

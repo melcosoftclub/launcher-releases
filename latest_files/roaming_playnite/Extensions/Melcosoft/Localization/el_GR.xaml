@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Εγκατάσταση παιχνιδιού</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Απεγκατάσταση παιχνιδιού</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Ενημέρωση παιχνιδιού</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Επιδιόρθωση αρχείων παιχνιδιού</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Επαλήθευση αρχείων παιχνιδιού</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Γίνεται εγκατάσταση του {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Γίνεται απεγκατάσταση του {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Γίνεται ενημέρωση του {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Γίνεται επιδιόρθωση του {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Γίνεται επαλήθευση του {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Γίνεται ανανέωση του {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Εγκατάσταση</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Απεγκατάσταση</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Ενημέρωση</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Επιδιόρθωση</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Επαλήθευση</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Ανανέωση</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Συγχρονισμός με το Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Σε εξέλιξη</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Εκτελείται</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Παύση</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Ακύρωση</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Λήψη αρχείων</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Εξαγωγή αρχείων</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Επικύρωση αρχείων</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Επιδιόρθωση αρχείων</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Ολοκλήρωση εγκατάστασης</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Προετοιμασία λήψης</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Η εγκατάσταση απέτυχε: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Η απεγκατάσταση απέτυχε: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Η ενημέρωση απέτυχε: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Η επιδιόρθωση απέτυχε: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Η επαλήθευση απέτυχε: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Ο συγχρονισμός με το Melcosoft απέτυχε: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Η εγκατάσταση ακυρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Η απεγκατάσταση ακυρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Η επιδιόρθωση ακυρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Η επαλήθευση ακυρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Ο συγχρονισμός με το Melcosoft ακυρώθηκε</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Αποτυχία δημιουργίας φακέλου εγκατάστασης: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">Το BackendBaseUrl δεν έχει ρυθμιστεί. Επικοινωνήστε με την υποστήριξη.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Ολοκληρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Ακυρώθηκε</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Απέτυχε</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Σε ουρά</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Σε παύση</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Επικοινωνήστε με την υποστήριξη.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Παίξε</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Ακύρωση</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Κλείσιμο</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Εφαρμογή</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Παύση</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Συνέχεια</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Συγχρονισμός βιβλιοθήκης Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Συγχρονισμός με το Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Ολοκλήρωση συγχρονισμού με το Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Ο συγχρονισμός με το Melcosoft ολοκληρώθηκε.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Δημιουργήθηκαν: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Ενημερώθηκαν: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Συγχρονισμός δεδομένων Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Επιλογή περιοχής λήψης</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Αποτυχία ορισμού περιοχής: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Επιλέξτε την περιοχή διακομιστή για τη λήψη του παιχνιδιού σας.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Περιοχή</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Ευρώπη</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Ρωσία</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Νότια Αμερική</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Κίνα</sys:String>
+
+</ResourceDictionary>

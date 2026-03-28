@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">गेम स्थापित करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">गेम विस्थापित करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">गेम अद्ययावत करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">गेम फाइल्स दुरुस्त करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">गेम फाइल्स पडताळा</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">{0} स्थापित करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">{0} विस्थापित करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">{0} अद्ययावत करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">{0} दुरुस्त करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">{0} पडताळत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">{0} रीफ्रेश करत आहे</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">स्थापित करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">विस्थापित करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">अद्ययावत करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">दुरुस्त करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">पडताळत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">रीफ्रेश करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Melcosoft सोबत समक्रमित करत आहे...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">काम करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">चालू आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">विराम देत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">रद्द करत आहे</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">फाइल्स डाउनलोड करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">फाइल्स काढत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">फाइल्स प्रमाणीकरण करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">फाइल्स दुरुस्त करत आहे</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">स्थापना अंतिम करत आहे</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">डाउनलोडची तयारी करत आहे</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">स्थापना अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">विस्थापन अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">अद्ययावत अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">दुरुस्ती अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">पडताळणी अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Melcosoft सोबत समक्रमण अयशस्वी: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">स्थापना रद्द केली</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">विस्थापन रद्द केले</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">दुरुस्ती रद्द केली</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">पडताळणी रद्द केली</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Melcosoft सोबत समक्रमण रद्द केले</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">स्थापना फोल्डर तयार करण्यात अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl संरचित केलेले नाही. कृपया समर्थनाशी संपर्क साधा.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">पूर्ण झाले</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">रद्द केले</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">अयशस्वी</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">रांगेत</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">विरामित</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">कृपया समर्थनाशी संपर्क साधा.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">खेळा</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">रद्द करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">बंद करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">लागू करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">विराम</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">पुन्हा सुरू करा</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Melcosoft लायब्ररी समक्रमित करत आहे... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Melcosoft सोबत समक्रमित करत आहे... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Melcosoft सोबत समक्रमण अंतिम करत आहे...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Melcosoft सोबत समक्रमण पूर्ण झाले.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">तयार केले: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">अद्ययावत केले: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft डेटा समक्रमित करा</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">डाउनलोड प्रदेश निवडा</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">प्रदेश सेट करण्यात अयशस्वी: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">तुमचा गेम डाउनलोड करण्यासाठी सर्व्हर प्रदेश निवडा.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">प्रदेश</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">युरोप</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">रशिया</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">दक्षिण अमेरिका</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">चीन</sys:String>
+
+</ResourceDictionary>

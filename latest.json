@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.10",
+  "latest_version": "3.0.1.11",
   "min_supported_version": "3.0.1.0",
-  "sha256": "02d0b4d107224088a9b013ea7cd5dd20326cecab6025cb0b566eed3601130a23",
-  "download_endpoint": "3.0.1.10/package.zip",
+  "sha256": "654180ae45b1ebf21b80f6da03af2854e3a981848b107347f09469614b7da402",
+  "download_endpoint": "3.0.1.11/package.zip",
   "release_notes": "English version:\nGeneral:\n- Improved localization.\n- Fixed launcher lag when switching games.\n- Removed redundant UI items.\nUpdater:\n- New logo icons.\n- Added config logic.\n\nРусская версия:\nОбщие:\n- Улучшена локализация.\n- Исправлена ​​задержка лаунчера при переключении игр.\n- Удалены лишние элементы UI.\nАпдейтер:\n- Новые значки логотипа.\n- Добавлена ​​логика config.",
   "mandatory": false
 }

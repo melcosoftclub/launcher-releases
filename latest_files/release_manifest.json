@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1.10",
+    "version": "3.0.1.11",
     "release_notes": "English version:\nGeneral:\n- Improved localization.\n- Fixed launcher lag when switching games.\n- Removed redundant UI items.\nUpdater:\n- New logo icons.\n- Added config logic.\n\nРусская версия:\nОбщие:\n- Улучшена локализация.\n- Исправлена ​​задержка лаунчера при переключении игр.\n- Удалены лишние элементы UI.\nАпдейтер:\n- Новые значки логотипа.\n- Добавлена ​​логика config.",
     "mandatory": false,
     "config_env": {

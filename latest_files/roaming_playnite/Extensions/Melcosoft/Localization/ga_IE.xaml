@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Suiteáil cluiche</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Díshuiteáil cluiche</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Nuashonraigh cluiche</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Deisigh comhaid an chluiche</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Fíoraigh comhaid an chluiche</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Ag suiteáil {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Ag díshuiteáil {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Ag nuashonrú {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Ag deisiú {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Ag fíorú {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Ag athnuachan {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Ag suiteáil</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Ag díshuiteáil</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Ag nuashonrú</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Ag deisiú</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Ag fíorú</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Ag athnuachan</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Ag sioncronú le Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Ag obair</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Ag rith</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Ag cur ar sos</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Ag cealú</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Ag íoslódáil comhad</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Ag baint comhad amach</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Ag bailíochtú comhad</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Ag deisiú comhad</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Ag cur bailchríoch ar an suiteáil</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Ag ullmhú an íoslódála</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Theip ar an suiteáil: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Theip ar an díshuiteáil: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Theip ar an nuashonrú: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Theip ar an deisiú: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Theip ar an bhfíorú: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Theip ar an sioncronú le Melcosoft: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Suiteáil curtha ar ceal</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Díshuiteáil curtha ar ceal</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Deisiú curtha ar ceal</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Fíorú curtha ar ceal</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sioncronú le Melcosoft curtha ar ceal</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Theip ar fhillteán suiteála a chruthú: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">Níl BackendBaseUrl cumraithe. Déan teagmháil leis an tacaíocht.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Críochnaithe</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Curtha ar ceal</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Theip</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Sa scuaine</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Ar sos</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Déan teagmháil leis an tacaíocht.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Imir</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Cealaigh</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Dún</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Cuir i bhfeidhm</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Sos</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Lean ar aghaidh</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Ag sioncronú leabharlann Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Ag sioncronú le Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Ag cur bailchríoch ar an sioncronú le Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Tá an sioncronú le Melcosoft críochnaithe.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Cruthaithe: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Nuashonraithe: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sioncronaigh sonraí Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Roghnaigh réigiún íoslódála</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Theip ar an réigiún a shocrú: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Roghnaigh réigiún an fhreastalaí chun do chluiche a íoslódáil.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Réigiún</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">An Eoraip</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">An Rúis</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Meiriceá Theas</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">An tSín</sys:String>
+
+</ResourceDictionary>

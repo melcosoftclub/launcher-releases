@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Nainštalovať hru</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Odinštalovať hru</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Aktualizovať hru</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Opraviť súbory hry</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Overiť súbory hry</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Inštaluje sa {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Odinštalúva sa {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Aktualizuje sa {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Opravuje sa {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Overuje sa {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Obnovuje sa {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Inštaluje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Odinštalúva sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Aktualizuje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Opravuje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Overuje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Obnovuje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Synchronizuje sa s Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Prebieha</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Spustené</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Pozastavuje sa</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Ruší sa</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Sťahujú sa súbory</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Rozbaľujú sa súbory</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Overujú sa súbory</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Opravujú sa súbory</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Dokončuje sa inštalácia</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Pripravuje sa sťahovanie</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Inštalácia zlyhala: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Odinštalovanie zlyhalo: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Aktualizácia zlyhala: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Oprava zlyhala: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Overenie zlyhalo: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Synchronizácia s Melcosoft zlyhala: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Inštalácia zrušená</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Odinštalovanie zrušené</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Oprava zrušená</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Overenie zrušené</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Synchronizácia s Melcosoft zrušená</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Nepodarilo sa vytvoriť inštalačný priečinok: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl nie je nakonfigurovaná. Kontaktujte podporu.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Dokončené</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Zrušené</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Zlyhalo</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">V rade</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Pozastavené</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Kontaktujte podporu.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Hrať</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Zrušiť</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Zavrieť</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Použiť</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pauza</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Pokračovať</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Synchronizuje sa knižnica Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Synchronizuje sa s Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Dokončuje sa synchronizácia s Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Synchronizácia s Melcosoft je dokončená.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Vytvorené: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Aktualizované: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Synchronizovať údaje Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Vybrať oblasť sťahovania</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Nepodarilo sa nastaviť oblasť: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Vyberte oblasť servera na stiahnutie vašej hry.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Oblasť</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Európa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusko</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Južná Amerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Čína</sys:String>
+
+</ResourceDictionary>

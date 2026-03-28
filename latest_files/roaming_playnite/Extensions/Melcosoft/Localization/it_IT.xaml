@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Installa gioco</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Disinstalla gioco</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Aggiorna gioco</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Ripara i file di gioco</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Verifica i file di gioco</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Installazione di {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Disinstallazione di {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Aggiornamento di {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Riparazione di {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Verifica di {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Aggiornamento di {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Installazione</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Disinstallazione</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Aggiornamento</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Riparazione</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Verifica</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Aggiornamento</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Sincronizzazione con Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">In corso</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">In esecuzione</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Messa in pausa</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Annullamento</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Scaricamento dei file</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Estrazione dei file</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Convalida dei file</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Riparazione dei file</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Finalizzazione dell’installazione</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Preparazione del download</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Installazione non riuscita: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Disinstallazione non riuscita: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Aggiornamento non riuscito: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Riparazione non riuscita: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Verifica non riuscita: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sincronizzazione con Melcosoft non riuscita: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Installazione annullata</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Disinstallazione annullata</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Riparazione annullata</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Verifica annullata</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sincronizzazione con Melcosoft annullata</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Impossibile creare la cartella di installazione: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl non è configurato. Contatta il supporto.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Completato</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Annullato</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Non riuscito</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">In coda</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">In pausa</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Contatta il supporto.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Gioca</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Annulla</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Chiudi</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Applica</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pausa</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Riprendi</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Sincronizzazione della libreria Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Sincronizzazione con Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Finalizzazione della sincronizzazione con Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Sincronizzazione con Melcosoft completata.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Creati: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Aggiornati: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sincronizza dati Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Seleziona area di download</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Impossibile impostare l’area: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Scegli l’area del server per scaricare il tuo gioco.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Area</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Russia</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Sud America</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Cina</sys:String>
+
+</ResourceDictionary>
