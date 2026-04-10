@@ -13,6 +13,11 @@
     ],
     "replace_dir": [
         {
+            "source": "backend/",
+            "dest": "install_dir_backend",
+            "backup": true
+        },
+        {
             "source": "updater/",
             "dest": "install_dir_updater_stage",
             "backup": true
