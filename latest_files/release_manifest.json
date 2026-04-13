@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.11",
-    "release_notes": "English version:\nGeneral:\n- Improved localization.\n- Fixed launcher lag when switching games.\n- Removed redundant UI items.\nUpdater:\n- New logo icons.\n- Added config logic.\n\nРусская версия:\nОбщие:\n- Улучшена локализация.\n- Исправлена ​​задержка лаунчера при переключении игр.\n- Удалены лишние элементы UI.\nАпдейтер:\n- Новые значки логотипа.\n- Добавлена ​​логика config.",
+    "version": "3.0.1.12",
+    "release_notes": "English version:\nGeneral:\n- Added support for 40+ new languages.\n- Cleaned up game context menu.\nInstaller:\n- Installation issues are now detected early, before downloading game files.\n- Games can now have multiple launch options for the same executable.\nGame links:\n- Game links are now synced from the server and shown in Playnite.\nFixes:\n- Fixed UI freeze when launching a game with a pending update.\n- Fixed a crash during game link sync.\n\nРусская версия:\nОбщее:\n- Добавлена поддержка 40+ новых языков.\n- Упрощено контекстное меню игры.\nУстановщик:\n- Проблемы с установкой теперь обнаруживаются заранее, до загрузки файлов игры.\n- Игры теперь могут иметь несколько вариантов запуска для одного исполняемого файла.\nСсылки игры:\n- Ссылки на игру теперь синхронизируются с сервера и отображаются в Playnite.\nИсправления:\n- Исправлено зависание интерфейса при запуске игры с ожидающим обновлением.\n- Исправлен сбой при синхронизации ссылок игры.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"
