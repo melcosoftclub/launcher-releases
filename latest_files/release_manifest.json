@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.13",
-    "release_notes": "English version:\nLauncher:\n- Fixed game launch language issues.\nBackend:\n- Log files are now automatically trimmed to avoid large file log issues.\nUpdater:\n- Fixed Melcosoft service not starting after update.\n\nРусская версия:\nЛаунчер:\n- Исправлена проблема с языком запуска игры.\nБэкенд:\n- Лог-файлы теперь автоматически очищаются для предотвращения их чрезмерного роста.\nОбновлятор:\n- Исправлена проблема с запуском сервиса Melcosoft после обновления.",
+    "version": "3.0.1.14",
+    "release_notes": "English version:\nBackend:\n- Fixed backend automatic startup issue.\n\nРусская версия:\nБэкенд:\n- Исправлена проблема автоматического запуска бэкенда.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

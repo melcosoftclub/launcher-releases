@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.13",
+  "latest_version": "3.0.1.14",
   "min_supported_version": "3.0.1.0",
-  "sha256": "edd7e34b448b4e773a09e555d1a276c9ec7e06700cf9c50e8b9c58c5aefbe8b8",
-  "download_endpoint": "3.0.1.13/package.zip",
-  "release_notes": "English version:\nLauncher:\n- Fixed game launch language issues.\nBackend:\n- Log files are now automatically trimmed to avoid large file log issues.\nUpdater:\n- Fixed Melcosoft service not starting after update.\n\nРусская версия:\nЛаунчер:\n- Исправлена проблема с языком запуска игры.\nБэкенд:\n- Лог-файлы теперь автоматически очищаются для предотвращения их чрезмерного роста.\nОбновлятор:\n- Исправлена проблема с запуском сервиса Melcosoft после обновления.",
+  "sha256": "219832d0e058c31b7dd4c512d96ff38d8d8ca9e0b5fc2d3cabd12f764863f326",
+  "download_endpoint": "3.0.1.14/package.zip",
+  "release_notes": "English version:\nBackend:\n- Fixed backend automatic startup issue.\n\nРусская версия:\nБэкенд:\n- Исправлена проблема автоматического запуска бэкенда.",
   "mandatory": false
 }
