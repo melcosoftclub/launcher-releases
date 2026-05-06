@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Installer spil</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Afinstaller spil</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Opdater spil</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Reparer spilfiler</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Bekræft spilfiler</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Installerer {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Afinstallerer {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Opdaterer {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Reparerer {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Bekræfter {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Opdaterer {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Installerer</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Afinstallerer</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Opdaterer</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Reparerer</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Bekræfter</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Opdaterer</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Synkroniserer med Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Arbejder</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Kører</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Sætter på pause</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Annullerer</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Henter filer</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Udpakker filer</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Validerer filer</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Reparerer filer</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Afslutter installation</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Forbereder download</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Installation mislykkedes: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Afinstallation mislykkedes: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Opdatering mislykkedes: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Reparation mislykkedes: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Bekræftelse mislykkedes: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Synkronisering med Melcosoft mislykkedes: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Installation annulleret</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Afinstallation annulleret</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Reparation annulleret</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Bekræftelse annulleret</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Synkronisering med Melcosoft annulleret</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Kunne ikke oprette installationsmappe: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl er ikke konfigureret. Kontakt Melcosoft support.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Fuldført</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Annulleret</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Mislykkedes</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">I kø</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Sat på pause</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Kontakt Melcosoft support.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Spil</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Annuller</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Luk</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Anvend</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pause</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Fortsæt</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Synkroniserer Melcosoft-bibliotek... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Synkroniserer med Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Afslutter synkronisering med Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Færdig med at synkronisere med Melcosoft.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Oprettet: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Opdateret: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Synkroniser Melcosoft-data</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Vælg downloadregion</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Kunne ikke angive region: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Vælg serverregionen til download af dit spil.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Region</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusland</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Sydamerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Kina</sys:String>
+
+</ResourceDictionary>

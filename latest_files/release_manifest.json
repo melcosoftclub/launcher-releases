@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.14",
-    "release_notes": "English version:\nBackend:\n- Fixed backend automatic startup issue.\n\nРусская версия:\nБэкенд:\n- Исправлена проблема автоматического запуска бэкенда.",
+    "version": "3.0.1.15",
+    "release_notes": "English version:\nBackend:\n- Added retry logic for batch file downloads.\n- Reduced batch size for more reliable downloads.\n- Added fallback to individual file download when server returns invalid data.\n\nLauncher:\n- Improved error notifications.\n- Fixed localization (install/uninstall failure messages were not showing in the correct language).\n\nРусская версия:\nБэкенд:\n- Добавлена логика повторных попыток для пакетной загрузки файлов.\n- Уменьшен размер пакета для повышения надёжности загрузки.\n- Добавлен запасной вариант с загрузкой файлов по одному при ошибке пакетной загрузки.\n\nЛаунчер:\n- Улучшены уведомления об ошибках.\n- Исправлены названия ключей локализации (сообщения об ошибках установки/удаления отображались на английском вместо нужного языка).",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

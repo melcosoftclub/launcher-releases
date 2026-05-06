@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Instalează jocul</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Dezinstalează jocul</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Actualizează jocul</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Repară fișierele jocului</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Verifică fișierele jocului</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Se instalează {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Se dezinstalează {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Se actualizează {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Se repară {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Se verifică {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Se reîmprospătează {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Se instalează</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Se dezinstalează</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Se actualizează</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Se repară</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Se verifică</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Se reîmprospătează</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Se sincronizează cu Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Se lucrează</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">În execuție</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Se pune pe pauză</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Se anulează</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Se descarcă fișiere</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Se extrag fișiere</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Se validează fișiere</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Se repară fișiere</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Se finalizează instalarea</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Se pregătește descărcarea</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Instalarea a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Dezinstalarea a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Actualizarea a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Repararea a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Verificarea a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sincronizarea cu Melcosoft a eșuat: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Instalare anulată</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Dezinstalare anulată</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Reparare anulată</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Verificare anulată</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sincronizare cu Melcosoft anulată</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Nu s-a putut crea folderul de instalare: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl nu este configurat. Contactați suportul Melcosoft.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Finalizat</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Anulat</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Eșuat</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">În coadă</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Pus pe pauză</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Contactați suportul Melcosoft.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Joacă</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Anulează</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Închide</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Aplică</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pauză</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Reia</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Se sincronizează biblioteca Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Se sincronizează cu Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Se finalizează sincronizarea cu Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Sincronizarea cu Melcosoft s-a încheiat.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Create: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Actualizate: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sincronizează datele Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Selectează regiunea de descărcare</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Setarea regiunii a eșuat: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Alege regiunea serverului pentru a descărca jocul.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Regiune</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusia</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">America de Sud</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
+
+</ResourceDictionary>

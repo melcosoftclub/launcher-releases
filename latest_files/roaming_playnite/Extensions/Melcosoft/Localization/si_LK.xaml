@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">ක්‍රීඩාව ස්ථාපනය කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">ක්‍රීඩාව අස්ථාපනය කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">ක්‍රීඩාව යාවත්කාලීන කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">ක්‍රීඩා ගොනු අලුත්වැඩියා කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">ක්‍රීඩා ගොනු සත්‍යාපනය කරන්න</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">{0} ස්ථාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">{0} අස්ථාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">{0} යාවත්කාලීන කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">{0} අලුත්වැඩියා කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">{0} සත්‍යාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">{0} නැවුම් කරමින්</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">ස්ථාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">අස්ථාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">යාවත්කාලීන කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">අලුත්වැඩියා කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">සත්‍යාපනය කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">නැවුම් කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Melcosoft සමඟ සමමුහුර්ත කරමින්...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">වැඩ කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">ක්‍රියාත්මක වේ</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">විරාම ගනිමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">අවලංගු කරමින්</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">ගොනු බාගත කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">ගොනු උපුටා ගනිමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">ගොනු වලංගු කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">ගොනු අලුත්වැඩියා කරමින්</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">ස්ථාපනය අවසන් කරමින්</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">බාගත කිරීම සූදානම් කරමින්</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">ස්ථාපනය අසාර්ථකයි: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">අස්ථාපනය අසාර්ථකයි: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">යාවත්කාලීන කිරීම අසාර්ථකයි: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">අලුත්වැඩියා කිරීම අසාර්ථකයි: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">සත්‍යාපනය අසාර්ථකයි: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Melcosoft සමඟ සමමුහුර්ත කිරීම අසාර්ථකයි: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">ස්ථාපනය අවලංගු කරන ලදි</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">අස්ථාපනය අවලංගු කරන ලදි</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">අලුත්වැඩියා කිරීම අවලංගු කරන ලදි</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">සත්‍යාපනය අවලංගු කරන ලදි</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Melcosoft සමඟ සමමුහුර්ත කිරීම අවලංගු කරන ලදි</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">ස්ථාපන ෆෝල්ඩරය සෑදීමට අසාර්ථක විය: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl සකසා නැත. කරුණාකර Melcosoft සහාය අමතන්න.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">සම්පූර්ණයි</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">අවලංගු කරන ලදි</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">අසාර්ථකයි</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">පෝලිමේ</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">විරාමිත</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">කරුණාකර Melcosoft සහාය අමතන්න.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">ක්‍රීඩා කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">අවලංගු කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">වසන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">යොදන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">විරාමය</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">නැවත ආරම්භ කරන්න</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Melcosoft පුස්තකාලය සමමුහුර්ත කරමින්... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Melcosoft සමඟ සමමුහුර්ත කරමින්... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Melcosoft සමඟ සමමුහුර්ත කිරීම අවසන් කරමින්...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Melcosoft සමඟ සමමුහුර්ත කිරීම අවසන් විය.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">නිර්මාණය කළේ: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">යාවත්කාලීන කළේ: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft දත්ත සමමුහුර්ත කරන්න</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">බාගත කලාපය තෝරන්න</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">කලාපය සැකසීමට අසාර්ථක විය: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">ඔබගේ ක්‍රීඩාව බාගත කිරීමට සර්වර් කලාපය තෝරන්න.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">කලාපය</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">යුරෝපය</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">රුසියාව</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">දකුණු ඇමරිකාව</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">චීනය</sys:String>
+
+</ResourceDictionary>

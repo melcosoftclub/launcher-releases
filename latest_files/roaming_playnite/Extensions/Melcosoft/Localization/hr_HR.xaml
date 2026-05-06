@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Instaliraj igru</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Deinstaliraj igru</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Ažuriraj igru</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Popravi datoteke igre</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Provjeri datoteke igre</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Instaliranje {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Deinstaliranje {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Ažuriranje {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Popravljanje {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Provjeravanje {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Osvježavanje {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Instaliranje</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Deinstaliranje</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Ažuriranje</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Popravljanje</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Provjeravanje</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Osvježavanje</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Sinkroniziranje s Melcosoftom...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Radim</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Pokrenuto</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Pauziranje</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Otkazivanje</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Preuzimanje datoteka</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Izdvajanje datoteka</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Provjera datoteka</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Popravljanje datoteka</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Dovršavanje instalacije</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Priprema preuzimanja</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Instalacija nije uspjela: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Deinstalacija nije uspjela: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Ažuriranje nije uspjelo: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Popravak nije uspio: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Provjera nije uspjela: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sinkronizacija s Melcosoftom nije uspjela: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Instalacija otkazana</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Deinstalacija otkazana</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Popravak otkazan</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Provjera otkazana</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sinkronizacija s Melcosoftom otkazana</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Neuspjelo stvaranje instalacijske mape: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl nije konfiguriran. Obratite se Melcosoft podršci.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Dovršeno</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Otkazano</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Neuspješno</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">U redu čekanja</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Pauzirano</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Obratite se Melcosoft podršci.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Igraj</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Otkaži</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Zatvori</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Primijeni</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pauza</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Nastavi</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Sinkroniziranje biblioteke Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Sinkroniziranje s Melcosoftom... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Dovršavanje sinkronizacije s Melcosoftom...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Sinkronizacija s Melcosoftom je završena.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Stvoreno: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Ažurirano: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sinkroniziraj podatke Melcosofta</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Odaberi regiju preuzimanja</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Postavljanje regije nije uspjelo: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Odaberite regiju poslužitelja za preuzimanje svoje igre.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Regija</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusija</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Južna Amerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Kina</sys:String>
+
+</ResourceDictionary>

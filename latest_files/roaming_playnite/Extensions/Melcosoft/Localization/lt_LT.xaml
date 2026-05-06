@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Įdiegti žaidimą</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Pašalinti žaidimą</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Atnaujinti žaidimą</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Taisyti žaidimo failus</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Patikrinti žaidimo failus</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Įdiegiama {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Šalinama {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Atnaujinama {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Taisoma {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Tikrinama {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Atnaujinama {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Įdiegiama</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Šalinama</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Atnaujinama</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Taisoma</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Tikrinama</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Atnaujinama</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Sinchronizuojama su Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Vykdoma</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Veikia</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Pristabdoma</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Atšaukiama</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Atsisiunčiami failai</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Išskleidžiami failai</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Tikrinami failai</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Taisomi failai</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Baigiamas diegimas</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Ruošiamas atsisiuntimas</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Diegimas nepavyko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Pašalinimas nepavyko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Atnaujinimas nepavyko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Taisymas nepavyko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Patikra nepavyko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sinchronizavimas su Melcosoft nepavyko: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Diegimas atšauktas</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Pašalinimas atšauktas</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Taisymas atšauktas</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Patikra atšaukta</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sinchronizavimas su Melcosoft atšauktas</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Nepavyko sukurti diegimo aplanko: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl nesukonfigūruotas. Susisiekite su Melcosoft palaikymu.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Užbaigta</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Atšaukta</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Nepavyko</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Eilėje</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Pristabdyta</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Susisiekite su Melcosoft palaikymu.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Žaisti</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Atšaukti</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Uždaryti</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Taikyti</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pristabdyti</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Tęsti</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Sinchronizuojama Melcosoft biblioteka... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Sinchronizuojama su Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Baigiamas sinchronizavimas su Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Sinchronizavimas su Melcosoft baigtas.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Sukurta: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Atnaujinta: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sinchronizuoti Melcosoft duomenis</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Pasirinkti atsisiuntimo regioną</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Nepavyko nustatyti regiono: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Pasirinkite serverio regioną savo žaidimui atsisiųsti.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Regionas</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Rusija</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Pietų Amerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Kinija</sys:String>
+
+</ResourceDictionary>

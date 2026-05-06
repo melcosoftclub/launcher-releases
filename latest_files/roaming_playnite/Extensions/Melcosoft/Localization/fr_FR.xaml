@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Installer le jeu</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Désinstaller le jeu</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Mettre à jour le jeu</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Réparer les fichiers du jeu</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Vérifier les fichiers du jeu</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Installation de {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Désinstallation de {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Mise à jour de {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Réparation de {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Vérification de {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Actualisation de {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Installation</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Désinstallation</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Mise à jour</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Réparation</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Vérification</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Actualisation</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Synchronisation avec Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Traitement</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">En cours</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Mise en pause</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Annulation</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Téléchargement des fichiers</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Extraction des fichiers</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Validation des fichiers</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Réparation des fichiers</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Finalisation de l'installation</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Préparation du téléchargement</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Échec de l'installation : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Échec de la désinstallation : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Échec de la mise à jour : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Échec de la réparation : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Échec de la vérification : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Échec de la synchronisation avec Melcosoft : {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Installation annulée</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Désinstallation annulée</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Réparation annulée</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Vérification annulée</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Synchronisation avec Melcosoft annulée</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Impossible de créer le dossier d'installation : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl n'est pas configuré. Veuillez contacter le support.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Terminé</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Annulé</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Échec</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">En attente</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">En pause</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Veuillez contacter le support Melcosoft.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Jouer</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Annuler</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Fermer</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Appliquer</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Pause</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Reprendre</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Synchronisation de la bibliothèque Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Synchronisation avec Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Finalisation de la synchronisation avec Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Synchronisation avec Melcosoft terminée.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Créé : {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Mis à jour : {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Synchroniser les données Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Sélectionner la région de téléchargement</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Impossible de définir la région : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Choisissez la région du serveur pour télécharger votre jeu.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Région</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Europe</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Russie</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Amérique du Sud</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Chine</sys:String>
+
+</ResourceDictionary>

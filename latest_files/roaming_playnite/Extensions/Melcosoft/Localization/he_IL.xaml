@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">התקן משחק</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">הסר התקנת משחק</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">עדכן משחק</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">תקן קבצי משחק</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">אמת קבצי משחק</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">מתקין את {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">מסיר את {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">מעדכן את {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">מתקן את {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">מאמת את {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">מרענן את {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">מתקין</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">מסיר התקנה</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">מעדכן</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">מתקן</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">מאמת</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">מרענן</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">מסתנכרן עם Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">עובד</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">פועל</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">משהה</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">מבטל</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">מוריד קבצים</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">מחלץ קבצים</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">מאמת קבצים</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">מתקן קבצים</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">מסיים את ההתקנה</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">מכין את ההורדה</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">ההתקנה נכשלה: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">הסרת ההתקנה נכשלה: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">העדכון נכשל: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">התיקון נכשל: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">האימות נכשל: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">הסנכרון עם Melcosoft נכשל: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">ההתקנה בוטלה</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">הסרת ההתקנה בוטלה</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">התיקון בוטל</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">האימות בוטל</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">הסנכרון עם Melcosoft בוטל</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">יצירת תיקיית ההתקנה נכשלה: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl אינו מוגדר. נא לפנות לתמיכה של Melcosoft.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">הושלם</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">בוטל</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">נכשל</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">בתור</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">מושהה</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">נא לפנות לתמיכה של Melcosoft.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">שחק</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">בטל</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">סגור</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">החל</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">השהה</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">המשך</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">מסנכרן את ספריית Melcosoft... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">מסתנכרן עם Melcosoft... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">מסיים סנכרון עם Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">הסנכרון עם Melcosoft הסתיים.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">נוצרו: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">עודכנו: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">סנכרן נתוני Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">בחר אזור הורדה</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">הגדרת האזור נכשלה: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">בחר את אזור השרת להורדת המשחק שלך.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">אזור</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">אירופה</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">רוסיה</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">דרום אמריקה</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">סין</sys:String>
+
+</ResourceDictionary>

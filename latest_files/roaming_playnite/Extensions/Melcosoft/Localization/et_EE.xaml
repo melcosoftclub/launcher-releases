@@ -1,0 +1,87 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCMelcosoftInstallGame">Installi mäng</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGame">Desinstalli mäng</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGame">Uuenda mängu</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFiles">Paranda mängu failid</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFiles">Kontrolli mängu faile</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallingGame">Installin {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallingGame">Desinstallin {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdatingGame">Uuendan {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingGame">Parandan {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyingGame">Kontrollin {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshingGame">Värskendan {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstalling">Installin</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstalling">Desinstallin</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdating">Uuendan</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairing">Parandan</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifying">Kontrollin</sys:String>
+    <sys:String x:Key="LOCMelcosoftRefreshing">Värskendan</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncing">Sünkroonin Melcosoftiga...</sys:String>
+    <sys:String x:Key="LOCMelcosoftWorking">Töötlen</sys:String>
+    <sys:String x:Key="LOCMelcosoftRunning">Töötab</sys:String>
+    <sys:String x:Key="LOCMelcosoftPausing">Peatan</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelling">Tühistan</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftDownloadingFiles">Laadin faile alla</sys:String>
+    <sys:String x:Key="LOCMelcosoftExtractingFiles">Pakin faile lahti</sys:String>
+    <sys:String x:Key="LOCMelcosoftValidatingFiles">Valideerin faile</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairingFiles">Parandan faile</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftFinalizingInstallation">Lõpetan installimist</sys:String>
+    <sys:String x:Key="LOCMelcosoftPreparingDownload">Valmistan allalaadimist ette</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameFailed">Installimine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameFailed">Desinstallimine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftUpdateGameFailed">Uuendamine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameFailed">Parandamine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameFailed">Kontroll nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameFailed">Sünkroonimine Melcosoftiga nurjus: {0}</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftInstallGameCancelled">Installimine tühistati</sys:String>
+    <sys:String x:Key="LOCMelcosoftUninstallGameCancelled">Desinstallimine tühistati</sys:String>
+    <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Parandamine tühistati</sys:String>
+    <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Kontroll tühistati</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Sünkroonimine Melcosoftiga tühistati</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Installikausta loomine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl pole seadistatud. Võtke ühendust Melcosoft toega.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftCompleted">Lõpetatud</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancelled">Tühistatud</sys:String>
+    <sys:String x:Key="LOCMelcosoftFailed">Nurjus</sys:String>
+    <sys:String x:Key="LOCMelcosoftQueued">Järjekorras</sys:String>
+    <sys:String x:Key="LOCMelcosoftPaused">Peatatud</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftContactSupport">Võtke ühendust Melcosoft toega.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftPlay">Mängi</sys:String>
+    <sys:String x:Key="LOCMelcosoftCancel">Tühista</sys:String>
+    <sys:String x:Key="LOCMelcosoftClose">Sulge</sys:String>
+    <sys:String x:Key="LOCMelcosoftApply">Rakenda</sys:String>
+    <sys:String x:Key="LOCMelcosoftPause">Paus</sys:String>
+    <sys:String x:Key="LOCMelcosoftResume">Jätka</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Sünkroonin Melcosofti teeki... {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncingProgress">Sünkroonin Melcosoftiga... {0}/{1}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFinalizingSync">Lõpetan sünkroonimist Melcosoftiga...</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncFinished">Melcosoftiga sünkroonimine on lõpetatud.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncCreatedGames">Loodud: {0}.</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Uuendatud: {0}.</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftTopPanelSync">Sünkrooni Melcosofti andmed</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Vali allalaadimispiirkond</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftRegionSetFailed">Piirkonna määramine nurjus: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Valige serveri piirkond oma mängu allalaadimiseks.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionLabel">Piirkond</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionEurope">Euroopa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionRussia">Venemaa</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Lõuna-Ameerika</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionChina">Hiina</sys:String>
+
+</ResourceDictionary>
