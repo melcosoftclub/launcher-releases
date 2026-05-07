@@ -83,5 +83,6 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Rusia</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Sudamérica</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
+    <sys:String x:Key="LOCMelcosoftSelectedRegion">Selected download region: {0}</sys:String>
 
 </ResourceDictionary>
