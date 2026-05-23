@@ -23,6 +23,7 @@ namespace Melcosoft.Localization
         public static string Verifying => ResourceProvider.GetString(LocalizationKeys.Verifying);
         public static string Refreshing => ResourceProvider.GetString(LocalizationKeys.Refreshing);
         public static string Syncing => ResourceProvider.GetString(LocalizationKeys.Syncing);
+        public static string Connecting => ResourceProvider.GetString(LocalizationKeys.Connecting);
         public static string Working => ResourceProvider.GetString(LocalizationKeys.Working);
         public static string Running => ResourceProvider.GetString(LocalizationKeys.Running);
         public static string Pausing => ResourceProvider.GetString(LocalizationKeys.Pausing);
@@ -48,6 +49,7 @@ namespace Melcosoft.Localization
         public static string RepairGameCancelled => ResourceProvider.GetString(LocalizationKeys.RepairGameCancelled);
         public static string VerifyGameCancelled => ResourceProvider.GetString(LocalizationKeys.VerifyGameCancelled);
         public static string SyncGameCancelled => ResourceProvider.GetString(LocalizationKeys.SyncGameCancelled);
+        public static string SyncInProgress => ResourceProvider.GetString(LocalizationKeys.SyncInProgress);
 
         public static string ErrorInstallGameInstallFolder => ResourceProvider.GetString(LocalizationKeys.ErrorInstallGameInstallFolder);
         public static string ErrorProgressBackendURL => ResourceProvider.GetString(LocalizationKeys.ErrorProgressBackendURL);
@@ -67,7 +69,6 @@ namespace Melcosoft.Localization
         public static string Pause => ResourceProvider.GetString(LocalizationKeys.Pause);
         public static string Resume => ResourceProvider.GetString(LocalizationKeys.Resume);
 
-        public static string SyncingLibraryPhase => ResourceProvider.GetString(LocalizationKeys.SyncingLibraryPhase);
         public static string SyncingProgress => ResourceProvider.GetString(LocalizationKeys.SyncingProgress);
         public static string FinalizingSync => ResourceProvider.GetString(LocalizationKeys.FinalizingSync);
         public static string SyncFinished => ResourceProvider.GetString(LocalizationKeys.SyncFinished);
@@ -76,6 +77,8 @@ namespace Melcosoft.Localization
 
         public static string TopPanelSync => ResourceProvider.GetString(LocalizationKeys.TopPanelSync);
         public static string TopPanelSelectRegion => ResourceProvider.GetString(LocalizationKeys.TopPanelSelectRegion);
+        public static string TopPanelReportError => ResourceProvider.GetString(LocalizationKeys.TopPanelReportError);
+        public static string TopPanelWelcome => ResourceProvider.GetString(LocalizationKeys.TopPanelWelcome);
 
         public static string RegionSetFailed => ResourceProvider.GetString(LocalizationKeys.RegionSetFailed);
         public static string RegionWindowDescription => ResourceProvider.GetString(LocalizationKeys.RegionWindowDescription);
@@ -84,5 +87,39 @@ namespace Melcosoft.Localization
         public static string RegionRussia => ResourceProvider.GetString(LocalizationKeys.RegionRussia);
         public static string RegionSouthAmerica => ResourceProvider.GetString(LocalizationKeys.RegionSouthAmerica);
         public static string RegionChina => ResourceProvider.GetString(LocalizationKeys.RegionChina);
+
+        public static string No => ResourceProvider.GetString(LocalizationKeys.No);
+
+        public static string ErrorReportWindowTitle => ResourceProvider.GetString(LocalizationKeys.ErrorReportWindowTitle);
+        public static string ErrorReportTitle => ResourceProvider.GetString(LocalizationKeys.ErrorReportTitle);
+        public static string ErrorReportDescriptionPrefix => ResourceProvider.GetString(LocalizationKeys.ErrorReportDescriptionPrefix);
+        public static string ErrorReportDescriptionSuffix => ResourceProvider.GetString(LocalizationKeys.ErrorReportDescriptionSuffix);
+        public static string ErrorReportContactPrompt => ResourceProvider.GetString(LocalizationKeys.ErrorReportContactPrompt);
+        public static string ErrorReportEmail => ResourceProvider.GetString(LocalizationKeys.ErrorReportEmail);
+        public static string ErrorReportTelegram => ResourceProvider.GetString(LocalizationKeys.ErrorReportTelegram);
+        public static string ErrorReportDiscord => ResourceProvider.GetString(LocalizationKeys.ErrorReportDiscord);
+        public static string ErrorReportUserDescription => ResourceProvider.GetString(LocalizationKeys.ErrorReportUserDescription);
+        public static string ErrorReportYes => ResourceProvider.GetString(LocalizationKeys.ErrorReportYes);
+        public static string ErrorReportSending => ResourceProvider.GetString(LocalizationKeys.ErrorReportSending);
+        public static string ErrorReportThankYouTitle => ResourceProvider.GetString(LocalizationKeys.ErrorReportThankYouTitle);
+        public static string ErrorReportThankYouBody => ResourceProvider.GetString(LocalizationKeys.ErrorReportThankYouBody);
+
+        public static string WelcomeTitle          => ResourceProvider.GetString(LocalizationKeys.WelcomeTitle);
+        public static string WelcomeIntro          => ResourceProvider.GetString(LocalizationKeys.WelcomeIntro);
+        public static string WelcomeLanguageTip    => ResourceProvider.GetString(LocalizationKeys.WelcomeLanguageTip);
+        public static string WelcomeToolbarHeading => ResourceProvider.GetString(LocalizationKeys.WelcomeToolbarHeading);
+        public static string WelcomeToolbarRegion  => ResourceProvider.GetString(LocalizationKeys.WelcomeToolbarRegion);
+        public static string WelcomeToolbarSync    => ResourceProvider.GetString(LocalizationKeys.WelcomeToolbarSync);
+        public static string WelcomeToolbarError   => ResourceProvider.GetString(LocalizationKeys.WelcomeToolbarError);
+        public static string WelcomeMultiLaunchTip => ResourceProvider.GetString(LocalizationKeys.WelcomeMultiLaunchTip);
+        public static string WelcomeRegionWarning  => ResourceProvider.GetString(LocalizationKeys.WelcomeRegionWarning);
+        public static string WelcomeGotIt          => ResourceProvider.GetString(LocalizationKeys.WelcomeGotIt);
+        public static string WelcomeDontShowAgain  => ResourceProvider.GetString(LocalizationKeys.WelcomeDontShowAgain);
+
+        public static string LaunchAnotherInstance => ResourceProvider.GetString(LocalizationKeys.LaunchAnotherInstance);
+
+        public static string ViewDownloads        => ResourceProvider.GetString(LocalizationKeys.ViewDownloads);
+        public static string NGamesDownloading    => ResourceProvider.GetString(LocalizationKeys.NGamesDownloading);
+        public static string DownloadsWindowTitle => ResourceProvider.GetString(LocalizationKeys.DownloadsWindowTitle);
     }
 }

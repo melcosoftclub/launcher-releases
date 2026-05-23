@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
@@ -22,6 +22,7 @@
     <sys:String x:Key="LOCMelcosoftVerifying">Überprüfung</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshing">Aktualisierung</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncing">Synchronisierung mit Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftConnecting">Verbindung zu Melcosoft-Servern...</sys:String>
     <sys:String x:Key="LOCMelcosoftWorking">Wird ausgeführt</sys:String>
     <sys:String x:Key="LOCMelcosoftRunning">Wird ausgeführt</sys:String>
     <sys:String x:Key="LOCMelcosoftPausing">Wird pausiert</sys:String>
@@ -47,6 +48,7 @@
     <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Reparatur abgebrochen</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Überprüfung abgebrochen</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Synchronisierung mit Melcosoft abgebrochen</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncInProgress">Synchronisierung läuft, bitte warten Sie auf den Abschluss.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Installationsordner konnte nicht erstellt werden: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl ist nicht konfiguriert. Bitte wenden Sie sich an den Support.</sys:String>
@@ -66,7 +68,6 @@
     <sys:String x:Key="LOCMelcosoftPause">Pause</sys:String>
     <sys:String x:Key="LOCMelcosoftResume">Fortsetzen</sys:String>
 
-    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Synchronisierung der Melcosoft-Bibliothek... {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncingProgress">Synchronisierung mit Melcosoft... {0}/{1}</sys:String>
     <sys:String x:Key="LOCMelcosoftFinalizingSync">Synchronisierung mit Melcosoft wird abgeschlossen...</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncFinished">Synchronisierung mit Melcosoft abgeschlossen.</sys:String>
@@ -74,6 +75,8 @@
     <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Aktualisiert: {0}.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft-Daten synchronisieren</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelReportError">Fehler melden</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelWelcome">Willkommen</sys:String>
     <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Downloadregion auswählen</sys:String>
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Region konnte nicht gesetzt werden: {0}</sys:String>
@@ -85,4 +88,36 @@
     <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Ausgewählte Download-Region: {0}</sys:String>
 
+    <sys:String x:Key="LOCMelcosoftNo">Nein</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorReportWindowTitle">Melcosoft — Fehlerbericht</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTitle">Fehlerbericht</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionPrefix">Beim Vorgang </sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionSuffix"> ist ein Fehler aufgetreten. Möchten Sie die Protokolle an den Melcosoft-Support senden, damit wir das Problem untersuchen können?</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportContactPrompt">Bitte geben Sie mindestens eine Kontaktmethode an:</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportEmail">E-Mail</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTelegram">Telegram</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDiscord">Discord</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportUserDescription">Beschreibung (optional)</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportYes">Ja, Protokolle senden</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportSending">Bericht wird gesendet...</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouTitle">Danke</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouBody">Vielen Dank für die Übermittlung des Fehlerberichts. Wir werden uns so schnell wie möglich mit einer möglichen Lösung bei Ihnen melden.</sys:String>
+
+
+    <sys:String x:Key="LOCMelcosoftWelcomeTitle">Willkommen bei Melcosoft Launcher</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeIntro">Melcosoft Launcher ist dein Zugang zum vollständigen Melcosoft-Spielekatalog. Durchsuche, lade herunter, installiere und spiele Melcosoft-Titel – alles an einem Ort. Deine Steam-Bibliothek wird automatisch verbunden, sodass deine Steam-Spiele hier ebenfalls erscheinen.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeLanguageTip">Du kannst die Launcher-Sprache jederzeit in den Einstellungen ändern.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarHeading">Schaltflächen in der oberen rechten Symbolleiste:</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download-Region — wähle die Serverregion, die dir am nächsten liegt. Dies beeinflusst Geschwindigkeit und Zuverlässigkeit der Downloads.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Synchronisieren — synchronisiere den Spielekatalog und Dateiinformationen mit den Melcosoft-Servern.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Fehlerbericht — wenn etwas schiefläuft, nutze diese Schaltfläche, um einen Bericht an das Support-Team zu senden.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Um mehrere Fenster desselben Spiels gleichzeitig zu öffnen, klicke mit der rechten Maustaste auf das Spiel und wähle "Weitere Instanz starten".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Bitte stelle sicher, dass du die richtige Download-Region ausgewählt hast. Eine falsche Region kann zu Fehlern beim Herunterladen, Synchronisieren, Aktualisieren und anderen Vorgängen führen.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Verstanden</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Nicht mehr anzeigen</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Weitere Instanz starten</sys:String>
+    <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
+    <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} Spiele werden heruntergeladen</sys:String>
+    <sys:String x:Key="LOCMelcosoftViewDownloads">Downloads</sys:String>
 </ResourceDictionary>

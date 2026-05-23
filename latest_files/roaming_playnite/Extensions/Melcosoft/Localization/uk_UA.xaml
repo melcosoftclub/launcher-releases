@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
@@ -22,6 +22,7 @@
     <sys:String x:Key="LOCMelcosoftVerifying">Перевірка</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshing">Оновлення</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncing">Синхронізація з Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftConnecting">Підключення до серверів Melcosoft...</sys:String>
     <sys:String x:Key="LOCMelcosoftWorking">Виконується</sys:String>
     <sys:String x:Key="LOCMelcosoftRunning">Виконується</sys:String>
     <sys:String x:Key="LOCMelcosoftPausing">Призупинення</sys:String>
@@ -47,6 +48,7 @@
     <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Відновлення скасовано</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Перевірку скасовано</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Синхронізацію з Melcosoft скасовано</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncInProgress">Синхронізація виконується, будь ласка, зачекайте її завершення.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Не вдалося створити папку встановлення: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl не налаштовано. Будь ласка, зверніться до служби підтримки.</sys:String>
@@ -66,7 +68,6 @@
     <sys:String x:Key="LOCMelcosoftPause">Пауза</sys:String>
     <sys:String x:Key="LOCMelcosoftResume">Продовжити</sys:String>
 
-    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Синхронізація бібліотеки Melcosoft... {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncingProgress">Синхронізація з Melcosoft... {0}/{1}</sys:String>
     <sys:String x:Key="LOCMelcosoftFinalizingSync">Завершення синхронізації з Melcosoft...</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncFinished">Синхронізацію з Melcosoft завершено.</sys:String>
@@ -74,6 +75,8 @@
     <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Оновлено: {0}.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftTopPanelSync">Синхронізувати дані Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelReportError">Повідомити про помилку</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelWelcome">Ласкаво просимо</sys:String>
     <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Вибрати регіон завантаження</sys:String>
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Не вдалося встановити регіон: {0}</sys:String>
@@ -85,4 +88,36 @@
     <sys:String x:Key="LOCMelcosoftRegionChina">Китай</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Вибраний регіон завантаження: {0}</sys:String>
 
+    <sys:String x:Key="LOCMelcosoftNo">Ні</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorReportWindowTitle">Melcosoft — Звіт про помилку</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTitle">Звіт про помилку</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionPrefix">Сталася помилка під час</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionSuffix">. Бажаєте надіслати журнали до служби підтримки Melcosoft, щоб ми могли розібратися?</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportContactPrompt">Вкажіть принаймні один спосіб зв'язку:</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportEmail">Email</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTelegram">Telegram</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDiscord">Discord</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportUserDescription">Опис (необов'язково)</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportYes">Так, надіслати журнали</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportSending">Надсилання звіту...</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouTitle">Дякуємо</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouBody">Дякуємо за надсилання звіту про помилку. Ми зв'яжемося з вами якнайшвидше з можливим рішенням.</sys:String>
+
+
+    <sys:String x:Key="LOCMelcosoftWelcomeTitle">Ласкаво просимо до Melcosoft Launcher</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeIntro">Melcosoft Launcher — ваш доступ до повного каталогу ігор Melcosoft. Переглядайте, завантажуйте, встановлюйте та грайте в ігри Melcosoft — все в одному місці. Ваша бібліотека Steam підключається автоматично, тому ваші ігри Steam також відображаються тут.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeLanguageTip">Ви можете змінити мову лаунчера будь-коли у Налаштуваннях.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarHeading">Кнопки панелі інструментів (вгорі праворуч):</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Регіон завантаження — виберіть регіон сервера, найближчий до вас. Це впливає на швидкість і надійність завантаження.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Синхронізація — синхронізуйте каталог ігор та інформацію про файли з серверами Melcosoft.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Звіт про помилку — якщо щось пішло не так, надішліть звіт команді підтримки.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Щоб відкрити кілька вікон однієї гри одночасно, клацніть правою кнопкою миші на грі та оберіть «Запустити ще один екземпляр».</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Будь ласка, переконайтеся, що ви вибрали правильний регіон завантаження. Використання неправильного регіону може призвести до помилок під час завантажень, синхронізації, оновлень та всіх пов'язаних операцій.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Зрозуміло</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Більше не показувати</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Запустити ще одне вікно гри</sys:String>
+    <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Завантаження</sys:String>
+    <sys:String x:Key="LOCMelcosoftNGamesDownloading">Ігор завантажується: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftViewDownloads">Завантаження</sys:String>
 </ResourceDictionary>

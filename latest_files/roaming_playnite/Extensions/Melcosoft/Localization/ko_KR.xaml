@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
@@ -22,6 +22,7 @@
     <sys:String x:Key="LOCMelcosoftVerifying">확인 중</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshing">새로 고침 중</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncing">Melcosoft와 동기화 중...</sys:String>
+    <sys:String x:Key="LOCMelcosoftConnecting">Connecting to Melcosoft servers...</sys:String>
     <sys:String x:Key="LOCMelcosoftWorking">작업 중</sys:String>
     <sys:String x:Key="LOCMelcosoftRunning">실행 중</sys:String>
     <sys:String x:Key="LOCMelcosoftPausing">일시 중지 중</sys:String>
@@ -47,6 +48,7 @@
     <sys:String x:Key="LOCMelcosoftRepairGameCancelled">복구 취소됨</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">확인 취소됨</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Melcosoft와 동기화 취소됨</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncInProgress">Sync is in progress, please wait for it to finish.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">설치 폴더를 만들지 못했습니다: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl이 구성되지 않았습니다. Melcosoft 지원팀에 문의하세요.</sys:String>
@@ -66,7 +68,6 @@
     <sys:String x:Key="LOCMelcosoftPause">일시 중지</sys:String>
     <sys:String x:Key="LOCMelcosoftResume">다시 시작</sys:String>
 
-    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Melcosoft 라이브러리 동기화 중... {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncingProgress">Melcosoft와 동기화 중... {0}/{1}</sys:String>
     <sys:String x:Key="LOCMelcosoftFinalizingSync">Melcosoft와 동기화 마무리 중...</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncFinished">Melcosoft와의 동기화가 완료되었습니다.</sys:String>
@@ -74,6 +75,8 @@
     <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">업데이트됨: {0}.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftTopPanelSync">Melcosoft 데이터 동기화</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelReportError">Report Error</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelWelcome">환영합니다</sys:String>
     <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">다운로드 지역 선택</sys:String>
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">지역 설정 실패: {0}</sys:String>
@@ -85,4 +88,19 @@
     <sys:String x:Key="LOCMelcosoftRegionChina">중국</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Selected download region: {0}</sys:String>
 
+    <sys:String x:Key="LOCMelcosoftWelcomeTitle">Welcome to Melcosoft Launcher</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeIntro">Melcosoft Launcher is your gateway to the full Melcosoft game catalog. Browse, download, install, and play Melcosoft titles — all from one place. Your Steam library is connected automatically, so your Steam games appear here as well.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeLanguageTip">You can change the launcher language at any time in Settings.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarHeading">Top-right toolbar buttons:</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download Region — select the server region closest to you. This affects download speed and reliability.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Sync — synchronize the game catalog and file information with Melcosoft servers.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Error Report — if something goes wrong, submit a report to the support team.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, right-click the game and select "Launch another game instance".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Please make sure to select the correct download region. Using the wrong region can cause errors during downloads, sync, updates, and all related operations.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Got It</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">다시 표시 안 함</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">다른 인스턴스 실행</sys:String>
+    <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
+    <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} games downloading</sys:String>
+    <sys:String x:Key="LOCMelcosoftViewDownloads">View Downloads</sys:String>
 </ResourceDictionary>

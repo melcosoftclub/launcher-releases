@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
@@ -22,6 +22,7 @@
     <sys:String x:Key="LOCMelcosoftVerifying">Проверка</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshing">Опресняване</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncing">Синхронизиране с Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftConnecting">Connecting to Melcosoft servers...</sys:String>
     <sys:String x:Key="LOCMelcosoftWorking">Работи се</sys:String>
     <sys:String x:Key="LOCMelcosoftRunning">Изпълнява се</sys:String>
     <sys:String x:Key="LOCMelcosoftPausing">Пауза</sys:String>
@@ -47,6 +48,7 @@
     <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Поправката е отменена</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Проверката е отменена</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Синхронизирането с Melcosoft е отменено</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncInProgress">Sync is in progress, please wait for it to finish.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Неуспешно създаване на папка за инсталиране: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl не е конфигуриран. Моля, свържете се с поддръжката на Melcosoft.</sys:String>
@@ -66,7 +68,6 @@
     <sys:String x:Key="LOCMelcosoftPause">Пауза</sys:String>
     <sys:String x:Key="LOCMelcosoftResume">Възобнови</sys:String>
 
-    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Синхронизиране на библиотеката на Melcosoft... {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncingProgress">Синхронизиране с Melcosoft... {0}/{1}</sys:String>
     <sys:String x:Key="LOCMelcosoftFinalizingSync">Финализиране на синхронизирането с Melcosoft...</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncFinished">Синхронизирането с Melcosoft завърши.</sys:String>
@@ -74,6 +75,8 @@
     <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Актуализирани: {0}.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftTopPanelSync">Синхронизиране на данните на Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelReportError">Report Error</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelWelcome">Добре дошли</sys:String>
     <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Избор на регион за изтегляне</sys:String>
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Неуспешно задаване на регион: {0}</sys:String>
@@ -85,4 +88,19 @@
     <sys:String x:Key="LOCMelcosoftRegionChina">Китай</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Selected download region: {0}</sys:String>
 
+    <sys:String x:Key="LOCMelcosoftWelcomeTitle">Welcome to Melcosoft Launcher</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeIntro">Melcosoft Launcher is your gateway to the full Melcosoft game catalog. Browse, download, install, and play Melcosoft titles — all from one place. Your Steam library is connected automatically, so your Steam games appear here as well.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeLanguageTip">You can change the launcher language at any time in Settings.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarHeading">Top-right toolbar buttons:</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download Region — select the server region closest to you. This affects download speed and reliability.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Sync — synchronize the game catalog and file information with Melcosoft servers.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Error Report — if something goes wrong, submit a report to the support team.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, right-click the game and select "Launch another game instance".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Please make sure to select the correct download region. Using the wrong region can cause errors during downloads, sync, updates, and all related operations.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Got It</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Don't show again</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Launch another game instance</sys:String>
+    <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
+    <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} games downloading</sys:String>
+    <sys:String x:Key="LOCMelcosoftViewDownloads">View Downloads</sys:String>
 </ResourceDictionary>

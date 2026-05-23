@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
@@ -22,6 +22,7 @@
     <sys:String x:Key="LOCMelcosoftVerifying">Проверка</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshing">Обновление</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncing">Синхронизация с Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftConnecting">Подключение к серверам Melcosoft...</sys:String>
     <sys:String x:Key="LOCMelcosoftWorking">Выполнение</sys:String>
     <sys:String x:Key="LOCMelcosoftRunning">Выполняется</sys:String>
     <sys:String x:Key="LOCMelcosoftPausing">Приостановка</sys:String>
@@ -47,6 +48,7 @@
     <sys:String x:Key="LOCMelcosoftRepairGameCancelled">Восстановление отменено</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyGameCancelled">Проверка отменена</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncGameCancelled">Синхронизация с Melcosoft отменена</sys:String>
+    <sys:String x:Key="LOCMelcosoftSyncInProgress">Синхронизация выполняется, пожалуйста, подождите её завершения.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Не удалось создать папку установки: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl не настроен. Пожалуйста, свяжитесь с поддержкой.</sys:String>
@@ -66,7 +68,6 @@
     <sys:String x:Key="LOCMelcosoftPause">Пауза</sys:String>
     <sys:String x:Key="LOCMelcosoftResume">Продолжить</sys:String>
 
-    <sys:String x:Key="LOCMelcosoftSyncingLibraryPhase">Синхронизация библиотеки Melcosoft... {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncingProgress">Синхронизация с Melcosoft... {0}/{1}</sys:String>
     <sys:String x:Key="LOCMelcosoftFinalizingSync">Завершение синхронизации с Melcosoft...</sys:String>
     <sys:String x:Key="LOCMelcosoftSyncFinished">Синхронизация с Melcosoft завершена.</sys:String>
@@ -74,6 +75,8 @@
     <sys:String x:Key="LOCMelcosoftSyncUpdatedGames">Обновлено: {0}.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftTopPanelSync">Синхронизировать данные Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelReportError">Сообщить об ошибке</sys:String>
+    <sys:String x:Key="LOCMelcosoftTopPanelWelcome">Добро пожаловать</sys:String>
     <sys:String x:Key="LOCMelcosoftTopPanelSelectRegion">Выбрать регион загрузки</sys:String>
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Не удалось установить регион: {0}</sys:String>
@@ -85,4 +88,36 @@
     <sys:String x:Key="LOCMelcosoftRegionChina">Китай</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Выбранный регион загрузки: {0}</sys:String>
 
+    <sys:String x:Key="LOCMelcosoftNo">Нет</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftErrorReportWindowTitle">Melcosoft — Отчёт об ошибке</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTitle">Отчёт об ошибке</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionPrefix">Произошла ошибка во время</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDescriptionSuffix">. Хотите отправить данные об ошибке в службу поддержки Melcosoft, чтобы мы могли разобраться?</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportContactPrompt">Укажите хотя бы один способ связи:</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportEmail">Email</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportTelegram">Telegram</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportDiscord">Discord</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportUserDescription">Описание (необязательно)</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportYes">Да, отправить отчёт</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportSending">Отправка отчёта...</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouTitle">Спасибо</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorReportThankYouBody">Спасибо за отправку отчёта об ошибке. Мы свяжемся с вами как можно скорее с возможным решением.</sys:String>
+
+
+    <sys:String x:Key="LOCMelcosoftWelcomeTitle">Добро пожаловать в Melcosoft Launcher</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeIntro">Melcosoft Launcher — ваш доступ к полному каталогу игр Melcosoft. Просматривайте, скачивайте, устанавливайте и запускайте игры Melcosoft — всё в одном месте. Ваша библиотека Steam подключается автоматически, и ваши игры Steam также отображаются здесь.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeLanguageTip">Язык лаунчера можно изменить в любое время в настройках.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarHeading">Кнопки в правом верхнем углу:</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Регион загрузки — выберите серверный регион, ближайший к вам. Это влияет на скорость и надёжность загрузки.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Синхронизация — обновить каталог игр и информацию о файлах с серверов Melcosoft.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Отчёт об ошибке — если что-то пошло не так, отправьте отчёт в службу поддержки.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Чтобы открыть несколько окон одной игры одновременно, нажмите правой кнопкой мыши на игру и выберите "Запустить ещё одно окно игры".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Пожалуйста, убедитесь в правильности выбранного региона загрузки. Неправильный регион может привести к ошибкам при загрузке, синхронизации, обновлениях и других операциях.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Понятно</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Больше не показывать</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Запустить ещё одно окно игры</sys:String>
+    <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Загрузки</sys:String>
+    <sys:String x:Key="LOCMelcosoftNGamesDownloading">Игр загружается: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftViewDownloads">Загрузки</sys:String>
 </ResourceDictionary>

@@ -21,6 +21,7 @@ namespace Melcosoft.Localization
         public const string Verifying = "LOCMelcosoftVerifying";
         public const string Refreshing = "LOCMelcosoftRefreshing";
         public const string Syncing = "LOCMelcosoftSyncing";
+        public const string Connecting = "LOCMelcosoftConnecting";
         public const string Working = "LOCMelcosoftWorking";
         public const string Running = "LOCMelcosoftRunning";
         public const string Pausing = "LOCMelcosoftPausing";
@@ -46,6 +47,7 @@ namespace Melcosoft.Localization
         public const string RepairGameCancelled = "LOCMelcosoftRepairGameCancelled";
         public const string VerifyGameCancelled = "LOCMelcosoftVerifyGameCancelled";
         public const string SyncGameCancelled = "LOCMelcosoftSyncGameCancelled";
+        public const string SyncInProgress = "LOCMelcosoftSyncInProgress";
 
         public const string ErrorInstallGameInstallFolder = "LOCMelcosoftErrorInstallGameInstallFolder";
         public const string ErrorProgressBackendURL = "LOCMelcosoftErrorProgressBackendURL";
@@ -65,7 +67,6 @@ namespace Melcosoft.Localization
         public const string Pause = "LOCMelcosoftPause";
         public const string Resume = "LOCMelcosoftResume";
 
-        public const string SyncingLibraryPhase = "LOCMelcosoftSyncingLibraryPhase";
         public const string SyncingProgress = "LOCMelcosoftSyncingProgress";
         public const string FinalizingSync = "LOCMelcosoftFinalizingSync";
         public const string SyncFinished = "LOCMelcosoftSyncFinished";
@@ -74,6 +75,8 @@ namespace Melcosoft.Localization
 
         public const string TopPanelSync = "LOCMelcosoftTopPanelSync";
         public const string TopPanelSelectRegion = "LOCMelcosoftTopPanelSelectRegion";
+        public const string TopPanelReportError = "LOCMelcosoftTopPanelReportError";
+        public const string TopPanelWelcome = "LOCMelcosoftTopPanelWelcome";
 
         public const string RegionSetFailed = "LOCMelcosoftRegionSetFailed";
         public const string RegionWindowDescription = "LOCMelcosoftRegionWindowDescription";
@@ -82,5 +85,39 @@ namespace Melcosoft.Localization
         public const string RegionRussia = "LOCMelcosoftRegionRussia";
         public const string RegionSouthAmerica = "LOCMelcosoftRegionSouthAmerica";
         public const string RegionChina = "LOCMelcosoftRegionChina";
+
+        public const string No = "LOCMelcosoftNo";
+
+        public const string ErrorReportWindowTitle = "LOCMelcosoftErrorReportWindowTitle";
+        public const string ErrorReportTitle = "LOCMelcosoftErrorReportTitle";
+        public const string ErrorReportDescriptionPrefix = "LOCMelcosoftErrorReportDescriptionPrefix";
+        public const string ErrorReportDescriptionSuffix = "LOCMelcosoftErrorReportDescriptionSuffix";
+        public const string ErrorReportContactPrompt = "LOCMelcosoftErrorReportContactPrompt";
+        public const string ErrorReportEmail = "LOCMelcosoftErrorReportEmail";
+        public const string ErrorReportTelegram = "LOCMelcosoftErrorReportTelegram";
+        public const string ErrorReportDiscord = "LOCMelcosoftErrorReportDiscord";
+        public const string ErrorReportUserDescription = "LOCMelcosoftErrorReportUserDescription";
+        public const string ErrorReportYes = "LOCMelcosoftErrorReportYes";
+        public const string ErrorReportSending = "LOCMelcosoftErrorReportSending";
+        public const string ErrorReportThankYouTitle = "LOCMelcosoftErrorReportThankYouTitle";
+        public const string ErrorReportThankYouBody = "LOCMelcosoftErrorReportThankYouBody";
+
+        public const string WelcomeTitle          = "LOCMelcosoftWelcomeTitle";
+        public const string WelcomeIntro          = "LOCMelcosoftWelcomeIntro";
+        public const string WelcomeLanguageTip    = "LOCMelcosoftWelcomeLanguageTip";
+        public const string WelcomeToolbarHeading = "LOCMelcosoftWelcomeToolbarHeading";
+        public const string WelcomeToolbarRegion  = "LOCMelcosoftWelcomeToolbarRegion";
+        public const string WelcomeToolbarSync    = "LOCMelcosoftWelcomeToolbarSync";
+        public const string WelcomeToolbarError   = "LOCMelcosoftWelcomeToolbarError";
+        public const string WelcomeMultiLaunchTip = "LOCMelcosoftWelcomeMultiLaunchTip";
+        public const string WelcomeRegionWarning  = "LOCMelcosoftWelcomeRegionWarning";
+        public const string WelcomeGotIt          = "LOCMelcosoftWelcomeGotIt";
+        public const string WelcomeDontShowAgain  = "LOCMelcosoftWelcomeDontShowAgain";
+
+        public const string LaunchAnotherInstance = "LOCMelcosoftLaunchAnotherInstance";
+
+        public const string ViewDownloads        = "LOCMelcosoftViewDownloads";
+        public const string NGamesDownloading    = "LOCMelcosoftNGamesDownloading";
+        public const string DownloadsWindowTitle = "LOCMelcosoftDownloadsWindowTitle";
     }
 }

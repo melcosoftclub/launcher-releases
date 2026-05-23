@@ -29,6 +29,8 @@ namespace Melcosoft.Localization
         {
             switch ((phase ?? string.Empty).Trim().ToUpperInvariant())
             {
+                case "CONNECTING":
+                    return Loc.Connecting;
                 case "DOWNLOADING":
                     return Loc.DownloadingFiles;
                 case "EXTRACTING":
