@@ -11,6 +11,13 @@
             "backup": true
         }
     ],
+    "overwrite": [
+        {
+            "source": "service/",
+            "dest": "install_dir_service",
+            "backup": true
+        }
+    ],
     "replace_dir": [
         {
             "source": "backend/",
