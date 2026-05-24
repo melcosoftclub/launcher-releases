@@ -111,7 +111,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• 下载地区 — 选择距您最近的服务器地区，影响下载速度与稳定性。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• 同步 — 与 Melcosoft 服务器同步游戏目录及文件信息。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• 错误报告 — 如有问题，可通过此按钮向支持团队提交报告。</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">若要同时打开同一游戏的多个窗口，请右键单击该游戏并选择「启动另一个实例」。</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">若要同时打开同一游戏的多个窗口，可点击托盘中的 Melcosoft 图标启动游戏，或右键单击该游戏并选择「启动另一个实例」。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  请务必选择正确的下载地区。选择错误的地区可能导致下载、同步、更新等操作出现错误。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">知道了</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">不再显示</sys:String>

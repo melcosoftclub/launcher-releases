@@ -112,7 +112,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download-Region — wähle die Serverregion, die dir am nächsten liegt. Dies beeinflusst Geschwindigkeit und Zuverlässigkeit der Downloads.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Synchronisieren — synchronisiere den Spielekatalog und Dateiinformationen mit den Melcosoft-Servern.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Fehlerbericht — wenn etwas schiefläuft, nutze diese Schaltfläche, um einen Bericht an das Support-Team zu senden.</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Um mehrere Fenster desselben Spiels gleichzeitig zu öffnen, klicke mit der rechten Maustaste auf das Spiel und wähle "Weitere Instanz starten".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Um mehrere Fenster desselben Spiels gleichzeitig zu öffnen, starte das Spiel über das Melcosoft-Symbol im Tray, oder klicke mit der rechten Maustaste auf das Spiel und wähle „Weitere Instanz starten".</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Bitte stelle sicher, dass du die richtige Download-Region ausgewählt hast. Eine falsche Region kann zu Fehlern beim Herunterladen, Synchronisieren, Aktualisieren und anderen Vorgängen führen.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Verstanden</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Nicht mehr anzeigen</sys:String>

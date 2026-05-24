@@ -111,7 +111,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download Region — select the server region closest to you. This affects download speed and reliability.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Sync — synchronize the game catalog and file information with Melcosoft servers.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Error Report — if something goes wrong, submit a report to the support team.</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, right-click the game and select "Launch another game instance".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, you can either launch it from the tray by clicking the Melcosoft icon, or right-click the game and select "Launch another game instance".</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Please make sure to select the correct download region. Using the wrong region can cause errors during downloads, sync, updates, and all related operations.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Got It</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Don't show again</sys:String>

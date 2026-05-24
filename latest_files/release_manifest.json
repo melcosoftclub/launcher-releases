@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.18",
-    "release_notes": "English version:\nAdded capability to download multiple games at once.\nAdded option to run multiple windows of the already launched game.\nStabilized downloads (added retries).\nAdded error report feature.\nNew UI elements.\nMany bug fixes.\n\nРусская версия:\nДобавлена возможность загружать несколько игр одновременно.\nДобавлена опция запуска нескольких окон уже запущенной игры.\nСтабилизированы загрузки (добавлены повторные попытки).\nДобавлена функция отправки отчётов об ошибках.\nНовые элементы интерфейса.\nМножество исправлений ошибок.\n\nУкраїнська версія:\nДодано можливість завантажувати кілька ігор одночасно.\nДодано опцію запуску кількох вікон вже запущеної гри.\nСтабілізовано завантаження (додано повторні спроби).\nДодано функцію надсилання звітів про помилки.\nНові елементи інтерфейсу.\nБагато виправлень помилок.",
+    "version": "3.0.1.19",
+    "release_notes": "English version:\n- Users can now launch multiple game windows from the tray.\n- Multiple bug fixes.\n\nРусская версия:\n- Добавлена опция запуска нескольких окон из трэя.\n- Множество исправлений ошибок.\n\nУкраїнська версія:\n- Додана можливість запуску кількох вікон гри з трею.\n- Багато виправлень помилок.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

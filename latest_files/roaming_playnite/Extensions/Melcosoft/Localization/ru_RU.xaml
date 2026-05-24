@@ -112,7 +112,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Регион загрузки — выберите серверный регион, ближайший к вам. Это влияет на скорость и надёжность загрузки.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Синхронизация — обновить каталог игр и информацию о файлах с серверов Melcosoft.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Отчёт об ошибке — если что-то пошло не так, отправьте отчёт в службу поддержки.</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Чтобы открыть несколько окон одной игры одновременно, нажмите правой кнопкой мыши на игру и выберите "Запустить ещё одно окно игры".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Чтобы открыть несколько окон одной игры одновременно, запустите её из трея, нажав на значок Melcosoft, или нажмите правой кнопкой мыши на игру и выберите «Запустить ещё одно окно игры».</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Пожалуйста, убедитесь в правильности выбранного региона загрузки. Неправильный регион может привести к ошибкам при загрузке, синхронизации, обновлениях и других операциях.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Понятно</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Больше не показывать</sys:String>

@@ -112,7 +112,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Région de téléchargement — sélectionnez la région du serveur la plus proche de vous. Cela affecte la vitesse et la fiabilité des téléchargements.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Synchronisation — synchronisez le catalogue de jeux et les informations sur les fichiers avec les serveurs Melcosoft.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Rapport d'erreur — en cas de problème, soumettez un rapport à l'équipe d'assistance.</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Pour ouvrir plusieurs fenêtres du même jeu en même temps, faites un clic droit sur le jeu et sélectionnez « Lancer une autre instance ».</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Pour ouvrir plusieurs fenêtres du même jeu en même temps, vous pouvez lancer le jeu depuis le tray en cliquant sur l'icône Melcosoft, ou faire un clic droit sur le jeu et sélectionner « Lancer une autre instance ».</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Veuillez vous assurer de sélectionner la bonne région de téléchargement. Utiliser la mauvaise région peut entraîner des erreurs lors des téléchargements, de la synchronisation, des mises à jour et de toutes les opérations associées.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Compris</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Ne plus afficher</sys:String>
