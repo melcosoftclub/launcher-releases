@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.19",
+  "latest_version": "3.0.1.18",
   "min_supported_version": "3.0.1.0",
-  "sha256": "4bcb75c060fcb57990e7ee52749065dd4f4a7fabcf6faa451e4e3fc8b87b762c",
-  "download_endpoint": "3.0.1.19/package.zip",
+  "sha256": "07f509c0be0fb630e004604d33e4cf56cb753315f3ad916a8636d0f3507fb76d",
+  "download_endpoint": "3.0.1.18/package.zip",
   "release_notes": "English version:\n- Users can now launch multiple game windows from the tray.\n- Multiple bug fixes.\n\nРусская версия:\n- Добавлена опция запуска нескольких окон из трэя.\n- Множество исправлений ошибок.\n\nУкраїнська версія:\n- Додана можливість запуску кількох вікон гри з трею.\n- Багато виправлень помилок.",
   "mandatory": false
 }
