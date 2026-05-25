@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.21",
-    "release_notes": "English version:\n- Users can now launch multiple game windows from the tray.\n- Multiple bug fixes.\n\nРусская версия:\n- Добавлена опция запуска нескольких окон из трэя.\n- Множество исправлений ошибок.\n\nУкраїнська версія:\n- Додана можливість запуску кількох вікон гри з трею.\n- Багато виправлень помилок.",
+    "version": "3.0.1.22",
+    "release_notes": "English version:\n- Bug fixes.\n\nРусская версия:\n- Исправление багов.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"
