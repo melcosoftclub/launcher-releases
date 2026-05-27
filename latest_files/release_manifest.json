@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1.22",
+    "version": "3.0.1.23",
     "release_notes": "English version:\n- Bug fixes.\n\nРусская версия:\n- Исправление багов.",
     "mandatory": false,
     "config_env": {
