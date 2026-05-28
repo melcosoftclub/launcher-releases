@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.23",
+  "latest_version": "3.0.1.24",
   "min_supported_version": "3.0.1.0",
-  "sha256": "5f82312a95c6bbcb2df3b0af2e7f57794e0f95d776aa13491414a9b7bf581935",
-  "download_endpoint": "3.0.1.23/package.zip",
+  "sha256": "897ad2aec3385676be16e8f17548479bf78f63655b7cf0d086f3504025607726",
+  "download_endpoint": "3.0.1.24/package.zip",
   "release_notes": "English version:\n- Bug fixes.\n\nРусская версия:\n- Исправление багов.",
   "mandatory": false
 }
