@@ -15,6 +15,7 @@ namespace Melcosoft.Localization
         public static string RepairingGame => ResourceProvider.GetString(LocalizationKeys.RepairingGame);
         public static string VerifyingGame => ResourceProvider.GetString(LocalizationKeys.VerifyingGame);
         public static string RefreshingGame => ResourceProvider.GetString(LocalizationKeys.RefreshingGame);
+        public static string CheckingForUpdates => ResourceProvider.GetString(LocalizationKeys.CheckingForUpdates);
 
         public static string Installing => ResourceProvider.GetString(LocalizationKeys.Installing);
         public static string Uninstalling => ResourceProvider.GetString(LocalizationKeys.Uninstalling);
@@ -82,6 +83,12 @@ namespace Melcosoft.Localization
 
         public static string RegionSetFailed => ResourceProvider.GetString(LocalizationKeys.RegionSetFailed);
         public static string RegionWindowDescription => ResourceProvider.GetString(LocalizationKeys.RegionWindowDescription);
+        public static string RegionSyncFailedTitle => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedTitle);
+        public static string RegionSyncFailedMessage => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedMessage);
+        public static string RegionSyncFailedContactPrompt => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedContactPrompt);
+        public static string RegionSyncFailedRetryPrompt => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedRetryPrompt);
+        public static string RegionSyncFailedReportButton => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedReportButton);
+        public static string RegionSyncFailedTryRegionButton => ResourceProvider.GetString(LocalizationKeys.RegionSyncFailedTryRegionButton);
         public static string RegionLabel => ResourceProvider.GetString(LocalizationKeys.RegionLabel);
         public static string RegionEurope => ResourceProvider.GetString(LocalizationKeys.RegionEurope);
         public static string RegionRussia => ResourceProvider.GetString(LocalizationKeys.RegionRussia);

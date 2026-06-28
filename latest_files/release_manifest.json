@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.24",
-    "release_notes": "English version:\n- Bug fixes.\n\nРусская версия:\n- Исправление багов.",
+    "version": "3.0.1.25",
+    "release_notes": "English version:\n- Improved game launch functionality.\n - Added feature to change region after sync failure.\n\nРусская версия:\n- Улучшен функционал запуска игр Melcosoft.\n - Добавлен ​​функционал смены региона после ошибки синхронизации с серверами Melcosoft.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

@@ -14,6 +14,7 @@
     <sys:String x:Key="LOCMelcosoftRepairingGame">Repairing {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyingGame">Verifying {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshingGame">Refreshing {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftCheckingForUpdates">Checking for updates...</sys:String>
 
     <sys:String x:Key="LOCMelcosoftInstalling">Installing</sys:String>
     <sys:String x:Key="LOCMelcosoftUninstalling">Uninstalling</sys:String>
@@ -81,6 +82,12 @@
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Failed to set region: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Choose the server region for downloading your game.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedTitle">Synchronization failed</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedMessage">Synchronization with Melcosoft failed, most likely because an incorrect region was selected. Please make sure the correct region is selected for synchronization and downloads.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedContactPrompt">Would you like to contact support and submit an error report?</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedRetryPrompt">Synchronization failed again. You can submit an error report, or try a different region.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedReportButton">Submit error report</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedTryRegionButton">Try another region</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionLabel">Region</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionEurope">Europe</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionRussia">Russia</sys:String>
@@ -111,11 +118,13 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarRegion">• Download Region — select the server region closest to you. This affects download speed and reliability.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Sync — synchronize the game catalog and file information with Melcosoft servers.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Error Report — if something goes wrong, submit a report to the support team.</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, you can either launch it from the tray by clicking the Melcosoft icon, or right-click the game and select "Launch another game instance".</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">To open multiple windows of the same game at the same time, you can either launch it from the tray by clicking the Melcosoft icon, or right-click the game and select "Launch game".</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Please make sure to select the correct download region. Using the wrong region can cause errors during downloads, sync, updates, and all related operations.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Got It</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Don't show again</sys:String>
-    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Launch another game instance</sys:String>
+    <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Launch game</sys:String>
+    <sys:String x:Key="LOCMelcosoftPlayOptionLabel">Play option</sys:String>
+    <sys:String x:Key="LOCMelcosoftWindowCountLabel">Number of windows</sys:String>
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} games downloading</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">View Downloads</sys:String>

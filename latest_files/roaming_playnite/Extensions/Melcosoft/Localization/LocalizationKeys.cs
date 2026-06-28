@@ -13,6 +13,7 @@ namespace Melcosoft.Localization
         public const string RepairingGame = "LOCMelcosoftRepairingGame";
         public const string VerifyingGame = "LOCMelcosoftVerifyingGame";
         public const string RefreshingGame = "LOCMelcosoftRefreshingGame";
+        public const string CheckingForUpdates = "LOCMelcosoftCheckingForUpdates";
 
         public const string Installing = "LOCMelcosoftInstalling";
         public const string Uninstalling = "LOCMelcosoftUninstalling";
@@ -80,6 +81,12 @@ namespace Melcosoft.Localization
 
         public const string RegionSetFailed = "LOCMelcosoftRegionSetFailed";
         public const string RegionWindowDescription = "LOCMelcosoftRegionWindowDescription";
+        public const string RegionSyncFailedTitle = "LOCMelcosoftRegionSyncFailedTitle";
+        public const string RegionSyncFailedMessage = "LOCMelcosoftRegionSyncFailedMessage";
+        public const string RegionSyncFailedContactPrompt = "LOCMelcosoftRegionSyncFailedContactPrompt";
+        public const string RegionSyncFailedRetryPrompt = "LOCMelcosoftRegionSyncFailedRetryPrompt";
+        public const string RegionSyncFailedReportButton = "LOCMelcosoftRegionSyncFailedReportButton";
+        public const string RegionSyncFailedTryRegionButton = "LOCMelcosoftRegionSyncFailedTryRegionButton";
         public const string RegionLabel = "LOCMelcosoftRegionLabel";
         public const string RegionEurope = "LOCMelcosoftRegionEurope";
         public const string RegionRussia = "LOCMelcosoftRegionRussia";

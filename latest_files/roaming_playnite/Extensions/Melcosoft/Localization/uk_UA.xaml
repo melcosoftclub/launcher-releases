@@ -14,6 +14,7 @@
     <sys:String x:Key="LOCMelcosoftRepairingGame">Відновлення {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftVerifyingGame">Перевірка {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftRefreshingGame">Оновлення {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftCheckingForUpdates">Перевірка оновлень...</sys:String>
 
     <sys:String x:Key="LOCMelcosoftInstalling">Встановлення</sys:String>
     <sys:String x:Key="LOCMelcosoftUninstalling">Видалення</sys:String>
@@ -81,6 +82,12 @@
 
     <sys:String x:Key="LOCMelcosoftRegionSetFailed">Не вдалося встановити регіон: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionWindowDescription">Виберіть регіон сервера для завантаження гри.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedTitle">Помилка синхронізації</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedMessage">Синхронізація з Melcosoft не вдалася, найімовірніше, через вибір неправильного регіону. Переконайтеся, що для синхронізації та завантажень вибрано правильний регіон.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedContactPrompt">Бажаєте зв’язатися зі службою підтримки та надіслати звіт про помилку?</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedRetryPrompt">Синхронізація знову не вдалася. Ви можете надіслати звіт про помилку або вибрати інший регіон.</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedReportButton">Надіслати звіт про помилку</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionSyncFailedTryRegionButton">Вибрати інший регіон</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionLabel">Регіон</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionEurope">Європа</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionRussia">Росія</sys:String>
@@ -117,6 +124,8 @@
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Зрозуміло</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">Більше не показувати</sys:String>
     <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Запустити ще одне вікно гри</sys:String>
+    <sys:String x:Key="LOCMelcosoftPlayOptionLabel">Варіант запуску</sys:String>
+    <sys:String x:Key="LOCMelcosoftWindowCountLabel">Кількість вікон</sys:String>
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Завантаження</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">Ігор завантажується: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">Завантаження</sys:String>

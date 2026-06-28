@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.24",
+  "latest_version": "3.0.1.25",
   "min_supported_version": "3.0.1.0",
-  "sha256": "897ad2aec3385676be16e8f17548479bf78f63655b7cf0d086f3504025607726",
-  "download_endpoint": "3.0.1.24/package.zip",
-  "release_notes": "English version:\n- Bug fixes.\n\nРусская версия:\n- Исправление багов.",
+  "sha256": "27c69fba498e2342aab3e03e14917b5678b36e2901c713901a8147c4cdb0c46b",
+  "download_endpoint": "3.0.1.25/package.zip",
+  "release_notes": "English version:\n- Improved game launch functionality.\n - Added feature to change region after sync failure.\n\nРусская версия:\n- Улучшен функционал запуска игр Melcosoft.\n - Добавлен ​​функционал смены региона после ошибки синхронизации с серверами Melcosoft.",
   "mandatory": false
 }
