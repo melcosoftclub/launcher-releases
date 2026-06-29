@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.25",
+  "latest_version": "3.0.1.26",
   "min_supported_version": "3.0.1.0",
-  "sha256": "27c69fba498e2342aab3e03e14917b5678b36e2901c713901a8147c4cdb0c46b",
-  "download_endpoint": "3.0.1.25/package.zip",
-  "release_notes": "English version:\n- Improved game launch functionality.\n - Added feature to change region after sync failure.\n\nРусская версия:\n- Улучшен функционал запуска игр Melcosoft.\n - Добавлен ​​функционал смены региона после ошибки синхронизации с серверами Melcosoft.",
+  "sha256": "5f60515b2761a2cc1a9d53663a7b9df103084a21b9facafd3443db7ddebe4e6c",
+  "download_endpoint": "3.0.1.26/package.zip",
+  "release_notes": "English version:\n- Fixed dropdown fields.\n- Fixed occasional error when launching multiple game windows at the same time.\n- Fixed game launch from tray.\n\nРусская версия:\n- Исправлены dropdown списки.\n- Исправлена ​​ошибка, возникавшая при одновременном запуске нескольких окон игры.\n- Исправлен запуск игры из системного трея.",
   "mandatory": false
 }
