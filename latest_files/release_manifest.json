@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.26",
-    "release_notes": "English version:\n- Fixed dropdown fields.\n- Fixed occasional error when launching multiple game windows at the same time.\n- Fixed game launch from tray.\n\nРусская версия:\n- Исправлены dropdown списки.\n- Исправлена ​​ошибка, возникавшая при одновременном запуске нескольких окон игры.\n- Исправлен запуск игры из системного трея.",
+    "version": "3.0.1.27",
+    "release_notes": "English version:\n- Fixed issue when the game window selector won't open when launching the game from tray while the game is already running.\n- Added ignore to specific game files, such as auth.ini for Lineage games.\n\nРусская версия:\n- Исправлена ​​ошибка, из-за которой окно выбора игрового окна не открывалось при запуске игры из трея, когда игра уже запущена.\n- Добавлен игнор определенных игровых файлов, таких как auth.ini в Lineage.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

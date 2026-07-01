@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.26",
+  "latest_version": "3.0.1.27",
   "min_supported_version": "3.0.1.0",
-  "sha256": "5f60515b2761a2cc1a9d53663a7b9df103084a21b9facafd3443db7ddebe4e6c",
-  "download_endpoint": "3.0.1.26/package.zip",
-  "release_notes": "English version:\n- Fixed dropdown fields.\n- Fixed occasional error when launching multiple game windows at the same time.\n- Fixed game launch from tray.\n\nРусская версия:\n- Исправлены dropdown списки.\n- Исправлена ​​ошибка, возникавшая при одновременном запуске нескольких окон игры.\n- Исправлен запуск игры из системного трея.",
+  "sha256": "2eece31e942ceab3f9ffcf0e0e409a6d572448fed74960f511f17c7bb290ccc4",
+  "download_endpoint": "3.0.1.27/package.zip",
+  "release_notes": "English version:\n- Fixed issue when the game window selector won't open when launching the game from tray while the game is already running.\n- Added ignore to specific game files, such as auth.ini for Lineage games.\n\nРусская версия:\n- Исправлена ​​ошибка, из-за которой окно выбора игрового окна не открывалось при запуске игры из трея, когда игра уже запущена.\n- Добавлен игнор определенных игровых файлов, таких как auth.ini в Lineage.",
   "mandatory": false
 }
