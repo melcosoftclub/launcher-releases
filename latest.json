@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.26",
+  "latest_version": "3.0.1.28",
   "min_supported_version": "3.0.1.0",
-  "sha256": "5f60515b2761a2cc1a9d53663a7b9df103084a21b9facafd3443db7ddebe4e6c",
-  "download_endpoint": "3.0.1.26/package.zip",
-  "release_notes": "English version:\n- Fixed issue when the game window selector won't open when launching the game from tray while the game is already running.\n- Added ignore to specific game files, such as auth.ini for Lineage games.\n\nРусская версия:\n- Исправлена ​​ошибка, из-за которой окно выбора игрового окна не открывалось при запуске игры из трея, когда игра уже запущена.\n- Добавлен игнор определенных игровых файлов, таких как auth.ini в Lineage.",
+  "sha256": "d516879dcb8b80c490b2b43e4fb52310d96543a2beed466ddf24f05d00ac9bee",
+  "download_endpoint": "3.0.1.28/package.zip",
+  "release_notes": "English version:\n- Fixed service startup issue during update.\n- Fixed game repair and verify issue.\n- Improved log trimmer.\n\nРусская версия:\n- Исправлена ​​проблема с запуском Melcosoft сервиса во время обновления.\n- Исправлена ​​проблема с восстановлением и проверкой файлов игры.\n- Улучшена система обрезки логов.",
   "mandatory": false
 }
