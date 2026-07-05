@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.28",
-    "release_notes": "English version:\n- Fixed service startup issue during update.\n- Fixed game repair and verify issue.\n- Improved log trimmer.\n\nРусская версия:\n- Исправлена ​​проблема с запуском Melcosoft сервиса во время обновления.\n- Исправлена ​​проблема с восстановлением и проверкой файлов игры.\n- Улучшена система обрезки логов.",
+    "version": "3.0.1.29",
+    "release_notes": "English version:\n- Fixed repair game files functionality.\n\nРусская версия:\n- Исправлена ​​функция восстановления игровых файлов.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.28",
+  "latest_version": "3.0.1.29",
   "min_supported_version": "3.0.1.0",
-  "sha256": "d516879dcb8b80c490b2b43e4fb52310d96543a2beed466ddf24f05d00ac9bee",
-  "download_endpoint": "3.0.1.28/package.zip",
-  "release_notes": "English version:\n- Fixed service startup issue during update.\n- Fixed game repair and verify issue.\n- Improved log trimmer.\n\nРусская версия:\n- Исправлена ​​проблема с запуском Melcosoft сервиса во время обновления.\n- Исправлена ​​проблема с восстановлением и проверкой файлов игры.\n- Улучшена система обрезки логов.",
+  "sha256": "e345a9173f2f61be2d6c5614bf50d2d85fe85d7273676efc04c5daf7c443c3fe",
+  "download_endpoint": "3.0.1.29/package.zip",
+  "release_notes": "English version:\n- Fixed repair game files functionality.\n\nРусская версия:\n- Исправлена ​​функция восстановления игровых файлов.",
   "mandatory": false
 }
