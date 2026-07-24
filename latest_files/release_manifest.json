@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.29",
-    "release_notes": "English version:\n- Fixed repair game files functionality.\n\nРусская версия:\n- Исправлена ​​функция восстановления игровых файлов.",
+    "version": "3.0.1.30",
+    "release_notes": "English version:\n- Fixes and improvements.\n\nРусская версия:\n- Исправления и улучшения.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

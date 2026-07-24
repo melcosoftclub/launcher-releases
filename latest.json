@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.29",
+  "latest_version": "3.0.1.30",
   "min_supported_version": "3.0.1.0",
-  "sha256": "e345a9173f2f61be2d6c5614bf50d2d85fe85d7273676efc04c5daf7c443c3fe",
-  "download_endpoint": "3.0.1.29/package.zip",
-  "release_notes": "English version:\n- Fixed repair game files functionality.\n\nРусская версия:\n- Исправлена ​​функция восстановления игровых файлов.",
+  "sha256": "222aec3f18a1832e5ce8c3b37e29f475d2eb820f9fbb6281832a5178cdc5e9ee",
+  "download_endpoint": "3.0.1.30/package.zip",
+  "release_notes": "English version:\n- Fixes and improvements.\n\nРусская версия:\n- Исправления и улучшения.",
   "mandatory": false
 }
