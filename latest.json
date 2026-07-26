@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.31",
+  "latest_version": "3.0.1.32",
   "min_supported_version": "3.0.1.0",
-  "sha256": "cb51da10c1f9e0bfc1da5bdc2552f9332e1f216cdbecb2eb5b7d1930d4164a13",
-  "download_endpoint": "3.0.1.31/package.zip",
-  "release_notes": "English version:\n- General launcher improvements. \n- L2 launch fixes.\n\nРусская версия:\n- Общие улучшения лаунчера.\n- L2 исправления при запуске игры.",
+  "sha256": "ec9297f693f9b02f63aad1837430267ab56fcb14e1130cf10f67902494747908",
+  "download_endpoint": "3.0.1.32/package.zip",
+  "release_notes": "English version:\n- Fix when user chosen game language selection (exe file) was reset after update (NOTE: this will only be visible after update 3.0.1.33).\n\nРусская версия:\n- Исправлена ​​ошибка, возникавшая после обновления, когда выбранный пользователем язык игры (exe файл) сбрасывался (ПРИМЕЧАНИЕ: исправление придет в силу только после версии 3.0.1.33).",
   "mandatory": false
 }

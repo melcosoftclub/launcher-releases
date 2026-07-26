@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.31",
-    "release_notes": "English version:\n- General launcher improvements. \n- L2 launch fixes.\n\nРусская версия:\n- Общие улучшения лаунчера.\n- L2 исправления при запуске игры.",
+    "version": "3.0.1.32",
+    "release_notes": "English version:\n- Fix when user chosen game language selection (exe file) was reset after update (NOTE: this will only be visible after update 3.0.1.33).\n\nРусская версия:\n- Исправлена ​​ошибка, возникавшая после обновления, когда выбранный пользователем язык игры (exe файл) сбрасывался (ПРИМЕЧАНИЕ: исправление придет в силу только после версии 3.0.1.33).",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"
