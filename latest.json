@@ -1,8 +1,8 @@
 {
-  "latest_version": "3.0.1.30",
+  "latest_version": "3.0.1.31",
   "min_supported_version": "3.0.1.0",
-  "sha256": "222aec3f18a1832e5ce8c3b37e29f475d2eb820f9fbb6281832a5178cdc5e9ee",
-  "download_endpoint": "3.0.1.30/package.zip",
-  "release_notes": "English version:\n- Fixes and improvements.\n\nРусская версия:\n- Исправления и улучшения.",
+  "sha256": "cb51da10c1f9e0bfc1da5bdc2552f9332e1f216cdbecb2eb5b7d1930d4164a13",
+  "download_endpoint": "3.0.1.31/package.zip",
+  "release_notes": "English version:\n- General launcher improvements. \n- L2 launch fixes.\n\nРусская версия:\n- Общие улучшения лаунчера.\n- L2 исправления при запуске игры.",
   "mandatory": false
 }
