@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.32",
-    "release_notes": "English version:\n- Fix when user chosen game language selection (exe file) was reset after update (NOTE: this will only be visible after update 3.0.1.33).\n\nРусская версия:\n- Исправлена ​​ошибка, возникавшая после обновления, когда выбранный пользователем язык игры (exe файл) сбрасывался (ПРИМЕЧАНИЕ: исправление придет в силу только после версии 3.0.1.33).",
+    "version": "3.0.1.33",
+    "release_notes": "English version:\n- Game download and installation fixes.\n\nРусская версия:\n- Исправление ошибки при загрузке и установке игр.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"
