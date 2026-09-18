@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.33",
-    "release_notes": "English version:\n- Game download and installation fixes.\n\nРусская версия:\n- Исправление ошибки при загрузке и установке игр.",
+    "version": "3.0.1.34",
+    "release_notes": "English version:\n- Improved download logic.\n- Various bug and localization fixes.\n\nРусская версия:\n- Улучшена логика загрузки. \n- Исправлены различные ошибки и улучшена локализация.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

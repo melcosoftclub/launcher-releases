@@ -52,6 +52,9 @@
     <sys:String x:Key="LOCMelcosoftSyncInProgress">Синхронизация выполняется, пожалуйста, подождите её завершения.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Не удалось создать папку установки: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorInstallFolderIsDriveRoot">Игру нельзя установить в корень диска. Выберите или создайте папку на нём.</sys:String>
+    <sys:String x:Key="LOCMelcosoftUnfinishedInstallFound">Загрузка {0} не завершена. Она продолжится в:&#10;{1}&#10;&#10;Начните заново, чтобы выбрать другую папку. Всё загруженное будет удалено.</sys:String>
+    <sys:String x:Key="LOCMelcosoftStartInstallOver">Начать заново</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl не настроен. Пожалуйста, свяжитесь с поддержкой.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftCompleted">Завершено</sys:String>

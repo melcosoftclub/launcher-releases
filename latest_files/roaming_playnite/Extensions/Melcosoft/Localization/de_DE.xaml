@@ -51,6 +51,9 @@
     <sys:String x:Key="LOCMelcosoftSyncInProgress">Synchronisierung läuft, bitte warten Sie auf den Abschluss.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Installationsordner konnte nicht erstellt werden: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorInstallFolderIsDriveRoot">Ein Spiel kann nicht in das Stammverzeichnis eines Laufwerks installiert werden. Wählen oder erstellen Sie einen Ordner darauf.</sys:String>
+    <sys:String x:Key="LOCMelcosoftUnfinishedInstallFound">Der Download von {0} ist nicht abgeschlossen. Er wird fortgesetzt in:&#10;{1}&#10;&#10;Beginnen Sie neu, um einen anderen Ordner zu wählen. Alles bisher Geladene wird gelöscht.</sys:String>
+    <sys:String x:Key="LOCMelcosoftStartInstallOver">Neu beginnen</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl ist nicht konfiguriert. Bitte wenden Sie sich an den Support.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftCompleted">Abgeschlossen</sys:String>

@@ -52,6 +52,9 @@
     <sys:String x:Key="LOCMelcosoftSyncInProgress">Sync is in progress, please wait for it to finish.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftErrorInstallGameInstallFolder">Failed to create install folder: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftErrorInstallFolderIsDriveRoot">A game cannot be installed into the root of a drive. Select or create a folder on it.</sys:String>
+    <sys:String x:Key="LOCMelcosoftUnfinishedInstallFound">The download of {0} is not finished. It continues in:&#10;{1}&#10;&#10;Start it over to select another folder. Everything downloaded so far is deleted.</sys:String>
+    <sys:String x:Key="LOCMelcosoftStartInstallOver">Start over</sys:String>
     <sys:String x:Key="LOCMelcosoftErrorProgressBackendURL">BackendBaseUrl is not configured. Please contact support.</sys:String>
 
     <sys:String x:Key="LOCMelcosoftCompleted">Completed</sys:String>

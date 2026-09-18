@@ -1,4 +1,4 @@
-using Playnite.SDK;
+﻿using Playnite.SDK;
 
 namespace Melcosoft.Localization
 {
@@ -53,6 +53,9 @@ namespace Melcosoft.Localization
         public static string SyncInProgress => ResourceProvider.GetString(LocalizationKeys.SyncInProgress);
 
         public static string ErrorInstallGameInstallFolder => ResourceProvider.GetString(LocalizationKeys.ErrorInstallGameInstallFolder);
+        public static string ErrorInstallFolderIsDriveRoot => ResourceProvider.GetString(LocalizationKeys.ErrorInstallFolderIsDriveRoot);
+        public static string UnfinishedInstallFound => ResourceProvider.GetString(LocalizationKeys.UnfinishedInstallFound);
+        public static string StartInstallOver => ResourceProvider.GetString(LocalizationKeys.StartInstallOver);
         public static string ErrorProgressBackendURL => ResourceProvider.GetString(LocalizationKeys.ErrorProgressBackendURL);
 
         public static string Completed => ResourceProvider.GetString(LocalizationKeys.Completed);

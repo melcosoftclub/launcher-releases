@@ -1,4 +1,4 @@
-namespace Melcosoft.Localization
+﻿namespace Melcosoft.Localization
 {
     public static class LocalizationKeys
     {
@@ -51,6 +51,9 @@ namespace Melcosoft.Localization
         public const string SyncInProgress = "LOCMelcosoftSyncInProgress";
 
         public const string ErrorInstallGameInstallFolder = "LOCMelcosoftErrorInstallGameInstallFolder";
+        public const string ErrorInstallFolderIsDriveRoot = "LOCMelcosoftErrorInstallFolderIsDriveRoot";
+        public const string UnfinishedInstallFound = "LOCMelcosoftUnfinishedInstallFound";
+        public const string StartInstallOver = "LOCMelcosoftStartInstallOver";
         public const string ErrorProgressBackendURL = "LOCMelcosoftErrorProgressBackendURL";
 
         public const string Completed = "LOCMelcosoftCompleted";
