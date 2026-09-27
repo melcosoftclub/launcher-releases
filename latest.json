@@ -1,7 +1,7 @@
 {
   "latest_version": "3.0.1.35",
   "min_supported_version": "3.0.1.0",
-  "sha256": "fe7956b3e1ba7ab2d9346b4ea48f66d3d01a0fbe92fa310325cfe1a4f70c397a",
+  "sha256": "8c8de482017fc9a454a410b8d6780f9da1e3b219ec3745ad0ff07caf9ce4a28b",
   "download_endpoint": "3.0.1.35/package.zip",
   "release_notes": "English version:\n- Move sync to background.\n- Game download fixes.\n- No more addon updates.\n- Remove Melcosoft service process.\n- Make Melcosoft Backend automatically stop on launcher exit and start on launcher start.\n- Minor fixes.\n\nРусская версия:\n- Перенос синхронизации в фоновый режим. \n- Исправления в процессе загрузки игры.\n- Удаление уведомления об обновлении аддонов.\n- Удаление служебного процесса Melcosoft.\n- Автоматическая остановка бэкенда Melcosoft при закрытии лаунчера и запуск при открытии.\n- Мелкие исправления.",
   "mandatory": false
