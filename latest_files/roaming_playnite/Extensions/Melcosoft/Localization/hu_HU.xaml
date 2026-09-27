@@ -86,6 +86,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Oroszország</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Dél-Amerika</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">Kína</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Reserve {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Selected download region: {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftWelcomeTitle">Welcome to Melcosoft Launcher</sys:String>

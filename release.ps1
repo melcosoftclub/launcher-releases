@@ -201,21 +201,10 @@ if (Confirm-Step "Update updater?") {
     Write-Host "Skipping updater."
 }
 
-# ---------- 9: service ----------
+# ---------- 9: service (removed) ----------
 
-Write-Section "Step 9: service"
-if (Confirm-Step "Update service?") {
-    $serviceExe = Join-Path $RepoRoot "Melcosoft.Service\bin\Release\net8.0-windows\win-x64\publish\MelcosoftService.exe"
-    $destService = Join-Path $LatestFiles "service"
-
-    Assert-PathExists $serviceExe "MelcosoftService.exe (publish output)"
-    New-Item -ItemType Directory -Path $destService -Force | Out-Null
-    Copy-Item $serviceExe (Join-Path $destService "MelcosoftService.exe") -Force
-
-    Write-Ok "Service updated."
-} else {
-    Write-Host "Skipping service."
-}
+# Since 3.0.1.35 the launcher starts the backend itself. The Windows service is gone, and
+# the updater removes it from older installs, so a release has no service files.
 
 # ---------- 10: extension ----------
 

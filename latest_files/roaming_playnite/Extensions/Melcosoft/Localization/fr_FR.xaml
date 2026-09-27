@@ -89,6 +89,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Russie</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Amérique du Sud</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">Chine</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Réserve {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Région de téléchargement sélectionnée : {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftNo">Non</sys:String>
@@ -123,4 +124,31 @@
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Téléchargements</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} jeux en cours de téléchargement</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">Téléchargements</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftBackendStarting">Démarrage du processus d'arrière-plan Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestarting">Le processus d'arrière-plan Melcosoft s'est arrêté. Tant qu'il ne fonctionne pas, le lanceur peut mal fonctionner. Redémarrage...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestored">Le processus d'arrière-plan Melcosoft fonctionne à nouveau.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownTitle">Processus d'arrière-plan Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownHeader">Le processus d'arrière-plan Melcosoft ne fonctionne pas. Tant qu'il ne fonctionne pas, le lanceur peut mal fonctionner.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownNotification">Le processus d'arrière-plan Melcosoft ne fonctionne pas. Cliquez ici pour plus de détails.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendFilesMissing">Des fichiers du processus d'arrière-plan sont manquants :&#10;{0}&#10;&#10;Un logiciel antivirus peut les supprimer. Ajoutez le dossier {1} aux exclusions de votre antivirus, puis réinstallez le lanceur.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendStartBlocked">Windows ou un logiciel antivirus a bloqué le démarrage du processus d'arrière-plan ({0}). Ajoutez le dossier {1} aux exclusions de votre antivirus.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortInUse">Le port {0} est utilisé par un autre programme : {1}. Fermez ce programme et réessayez.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortReserved">Windows a réservé le port {0} pour un autre composant, par exemple Hyper-V ou WSL. Redémarrez l'ordinateur et réessayez.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendOtherSession">Melcosoft est ouvert dans un autre compte Windows. Fermez-le dans ce compte et réessayez.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyService">L'ancien service Melcosoft est toujours installé et bloque le processus d'arrière-plan. Supprimer l'ancien service maintenant ? Windows demande des droits d'administrateur.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendCrashed">Le processus d'arrière-plan s'est arrêté de manière inattendue (code de sortie {0}).</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendNotResponding">Le processus d'arrière-plan ne répond pas.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRetry">Réessayer</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRemoveLegacyService">Supprimer l'ancien service</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyServiceRemoveFailed">L'ancien service n'a pas pu être supprimé (code {0}). Réinstallez le lanceur.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessPrompt">Melcosoft n'a pas l'autorisation de modifier les fichiers de ce dossier :&#10;{0}&#10;&#10;Accorder l'accès à ce dossier ? Windows demande des droits d'administrateur.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessGrant">Accorder l'accès</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessStillDenied">L'accès à ce dossier est toujours refusé :&#10;{0}&#10;&#10;Un logiciel antivirus ou la fonction Windows « Dispositif d'accès contrôlé aux dossiers » peut bloquer le lanceur. Les fichiers du jeu peuvent aussi être en cours d'utilisation : fermez le jeu et réessayez.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderReadOnly">Ce dossier se trouve sur un lecteur en lecture seule :&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderUnavailable">Ce dossier n'est pas disponible :&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderNetworkNoAccess">Melcosoft n'a pas l'autorisation de modifier les fichiers de ce dossier réseau :&#10;{0}&#10;&#10;Demandez au propriétaire du dossier réseau un accès en écriture.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderHelperMissing">Des fichiers dont le lanceur a besoin pour accorder l'accès sont manquants. Réinstallez le lanceur.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessFailed">L'accès n'a pas pu être accordé : {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftPendingInstallNeedsAccess">Le téléchargement de {0} ne peut pas continuer : Melcosoft n'a pas l'autorisation de modifier les fichiers dans {1}. Cliquez ici pour accorder l'accès.</sys:String>
 </ResourceDictionary>

@@ -96,6 +96,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Russia</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">South America</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Reserve {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Selected download region: {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftNo">No</sys:String>
@@ -131,4 +132,31 @@
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} games downloading</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">View Downloads</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftBackendStarting">Starting the Melcosoft background process...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestarting">The Melcosoft background process stopped. The launcher can work incorrectly until it runs again. Restarting it...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestored">The Melcosoft background process runs again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownTitle">Melcosoft background process</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownHeader">The Melcosoft background process does not run. The launcher can work incorrectly until it runs again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownNotification">The Melcosoft background process does not run. Click here for details.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendFilesMissing">Files of the background process are missing:&#10;{0}&#10;&#10;Antivirus software can remove them. Add the folder {1} to the exclusions of your antivirus software, then reinstall the launcher.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendStartBlocked">Windows or antivirus software blocked the start of the background process ({0}). Add the folder {1} to the exclusions of your antivirus software.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortInUse">Port {0} is used by another program: {1}. Close that program and try again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortReserved">Windows reserved port {0} for another component, for example Hyper-V or WSL. Restart the computer and try again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendOtherSession">Melcosoft is open in another Windows account. Close it there and try again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyService">The old Melcosoft service is still installed and blocks the background process. Remove the old service now? Windows asks for administrator permission.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendCrashed">The background process stopped unexpectedly (exit code {0}).</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendNotResponding">The background process does not respond.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRetry">Try again</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRemoveLegacyService">Remove old service</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyServiceRemoveFailed">The old service could not be removed (code {0}). Reinstall the launcher.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessPrompt">Melcosoft has no permission to change files in this folder:&#10;{0}&#10;&#10;Give access to this folder? Windows asks for administrator permission.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessGrant">Give access</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessStillDenied">Access to this folder is still denied:&#10;{0}&#10;&#10;Antivirus software or the Windows "Controlled folder access" feature can block the launcher. The game files can also be in use: close the game and try again.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderReadOnly">This folder is on a read-only drive:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderUnavailable">This folder is not available:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderNetworkNoAccess">Melcosoft has no permission to change files in this network folder:&#10;{0}&#10;&#10;Ask the owner of the network folder for write access.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderHelperMissing">Files that the launcher needs to give access are missing. Reinstall the launcher.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessFailed">Access could not be given: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftPendingInstallNeedsAccess">The download of {0} cannot continue: Melcosoft has no permission to change files in {1}. Click here to give access.</sys:String>
 </ResourceDictionary>

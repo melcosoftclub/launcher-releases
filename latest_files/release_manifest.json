@@ -1,6 +1,6 @@
 {
-    "version": "3.0.1.34",
-    "release_notes": "English version:\n- Improved download logic.\n- Various bug and localization fixes.\n\nРусская версия:\n- Улучшена логика загрузки. \n- Исправлены различные ошибки и улучшена локализация.",
+    "version": "3.0.1.35",
+    "release_notes": "English version:\n- Move sync to background.\n- Game download fixes.\n- No more addon updates.\n- Remove Melcosoft service process.\n- Make Melcosoft Backend automatically stop on launcher exit and start on launcher start.\n- Minor fixes.\n\nРусская версия:\n- Перенос синхронизации в фоновый режим. \n- Исправления в процессе загрузки игры.\n- Удаление уведомления об обновлении аддонов.\n- Удаление служебного процесса Melcosoft.\n- Автоматическая остановка бэкенда Melcosoft при закрытии лаунчера и запуск при открытии.\n- Мелкие исправления.",
     "mandatory": false,
     "config_env": {
         "policy": "merge_preserve"

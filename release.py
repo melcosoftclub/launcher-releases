@@ -242,21 +242,10 @@ def main() -> None:
     else:
         print("Skipping updater.")
 
-    # ---------- 9: service ----------
+    # ---------- 9: service (removed) ----------
 
-    section("Step 9: service")
-    if confirm("Update service?"):
-        service_exe = (REPO_ROOT / "Melcosoft.Service" / "bin" / "Release"
-                        / "net8.0-windows" / "win-x64" / "publish" / "MelcosoftService.exe")
-        dest_service = LATEST_FILES / "service"
-
-        assert_path_exists(service_exe, "MelcosoftService.exe (publish output)")
-        dest_service.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(service_exe, dest_service / "MelcosoftService.exe")
-
-        ok("Service updated.")
-    else:
-        print("Skipping service.")
+    # Since 3.0.1.35 the launcher starts the backend itself. The Windows service is gone, and
+    # the updater removes it from older installs, so a release has no service files.
 
     # ---------- 10: extension ----------
 

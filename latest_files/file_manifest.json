@@ -11,13 +11,6 @@
             "backup": true
         }
     ],
-    "overwrite": [
-        {
-            "source": "service/",
-            "dest": "install_dir_service",
-            "backup": true
-        }
-    ],
     "replace_dir": [
         {
             "source": "backend/",
@@ -27,6 +20,26 @@
         {
             "source": "updater/",
             "dest": "install_dir_updater_stage",
+            "backup": true
+        }
+    ],
+    "delete": [
+        {
+            "dest": "install_dir_launcher",
+            "path": "MelcosoftService.exe",
+            "recursive": false,
+            "backup": true
+        },
+        {
+            "dest": "appdata_roaming_playnite",
+            "path": "Extensions/StartPage",
+            "recursive": true,
+            "backup": true
+        },
+        {
+            "dest": "appdata_roaming_playnite",
+            "path": "ExtensionsData/a6a3dcf6-9bfe-426c-afb0-9f49409ae0c5",
+            "recursive": true,
             "backup": true
         }
     ]

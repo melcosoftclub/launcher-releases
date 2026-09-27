@@ -96,6 +96,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Россия</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Южная Америка</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">Китай</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Резерв {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Выбранный регион загрузки: {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftNo">Нет</sys:String>
@@ -132,4 +133,31 @@
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Загрузки</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">Игр загружается: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">Загрузки</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftBackendStarting">Запуск фонового процесса Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestarting">Фоновый процесс Melcosoft остановился. Пока он не запущен, лаунчер может работать некорректно. Перезапуск...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestored">Фоновый процесс Melcosoft снова работает.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownTitle">Фоновый процесс Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownHeader">Фоновый процесс Melcosoft не работает. Пока он не запущен, лаунчер может работать некорректно.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownNotification">Фоновый процесс Melcosoft не работает. Нажмите здесь, чтобы узнать подробности.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendFilesMissing">Отсутствуют файлы фонового процесса:&#10;{0}&#10;&#10;Их может удалить антивирус. Добавьте папку {1} в исключения антивируса и переустановите лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendStartBlocked">Windows или антивирус заблокировали запуск фонового процесса ({0}). Добавьте папку {1} в исключения антивируса.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortInUse">Порт {0} занят другой программой: {1}. Закройте эту программу и повторите попытку.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortReserved">Windows зарезервировала порт {0} для другого компонента, например Hyper-V или WSL. Перезагрузите компьютер и повторите попытку.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendOtherSession">Melcosoft открыт в другой учётной записи Windows. Закройте его там и повторите попытку.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyService">Старая служба Melcosoft всё ещё установлена и блокирует фоновый процесс. Удалить старую службу сейчас? Windows запросит права администратора.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendCrashed">Фоновый процесс неожиданно завершился (код выхода {0}).</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendNotResponding">Фоновый процесс не отвечает.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRetry">Повторить</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRemoveLegacyService">Удалить старую службу</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyServiceRemoveFailed">Не удалось удалить старую службу (код {0}). Переустановите лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessPrompt">У Melcosoft нет прав на изменение файлов в этой папке:&#10;{0}&#10;&#10;Предоставить доступ к этой папке? Windows запросит права администратора.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessGrant">Предоставить доступ</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessStillDenied">Доступ к этой папке по-прежнему запрещён:&#10;{0}&#10;&#10;Лаунчер может блокировать антивирус или функция Windows «Контролируемый доступ к папкам». Также файлы игры могут быть заняты: закройте игру и повторите попытку.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderReadOnly">Эта папка находится на диске, доступном только для чтения:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderUnavailable">Эта папка недоступна:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderNetworkNoAccess">У Melcosoft нет прав на изменение файлов в этой сетевой папке:&#10;{0}&#10;&#10;Попросите владельца сетевой папки предоставить доступ на запись.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderHelperMissing">Отсутствуют файлы, которые нужны лаунчеру для предоставления доступа. Переустановите лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessFailed">Не удалось предоставить доступ: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftPendingInstallNeedsAccess">Загрузка {0} не может продолжиться: у Melcosoft нет прав на изменение файлов в {1}. Нажмите здесь, чтобы предоставить доступ.</sys:String>
 </ResourceDictionary>

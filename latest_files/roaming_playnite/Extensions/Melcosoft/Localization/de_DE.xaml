@@ -89,6 +89,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Russland</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Südamerika</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">China</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Reserve {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Ausgewählte Download-Region: {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftNo">Nein</sys:String>
@@ -123,4 +124,31 @@
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Downloads</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">{0} Spiele werden heruntergeladen</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">Downloads</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftBackendStarting">Der Melcosoft-Hintergrundprozess wird gestartet...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestarting">Der Melcosoft-Hintergrundprozess wurde beendet. Bis er wieder läuft, funktioniert der Launcher möglicherweise nicht richtig. Er wird neu gestartet...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestored">Der Melcosoft-Hintergrundprozess läuft wieder.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownTitle">Melcosoft-Hintergrundprozess</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownHeader">Der Melcosoft-Hintergrundprozess läuft nicht. Bis er wieder läuft, funktioniert der Launcher möglicherweise nicht richtig.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownNotification">Der Melcosoft-Hintergrundprozess läuft nicht. Klicken Sie hier für Details.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendFilesMissing">Dateien des Hintergrundprozesses fehlen:&#10;{0}&#10;&#10;Antivirensoftware kann sie entfernen. Fügen Sie den Ordner {1} zu den Ausnahmen Ihrer Antivirensoftware hinzu und installieren Sie den Launcher neu.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendStartBlocked">Windows oder eine Antivirensoftware hat den Start des Hintergrundprozesses blockiert ({0}). Fügen Sie den Ordner {1} zu den Ausnahmen Ihrer Antivirensoftware hinzu.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortInUse">Port {0} wird von einem anderen Programm verwendet: {1}. Schließen Sie dieses Programm und versuchen Sie es erneut.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortReserved">Windows hat Port {0} für eine andere Komponente reserviert, zum Beispiel Hyper-V oder WSL. Starten Sie den Computer neu und versuchen Sie es erneut.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendOtherSession">Melcosoft ist in einem anderen Windows-Konto geöffnet. Schließen Sie es dort und versuchen Sie es erneut.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyService">Der alte Melcosoft-Dienst ist noch installiert und blockiert den Hintergrundprozess. Den alten Dienst jetzt entfernen? Windows fragt nach Administratorrechten.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendCrashed">Der Hintergrundprozess wurde unerwartet beendet (Exitcode {0}).</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendNotResponding">Der Hintergrundprozess reagiert nicht.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRetry">Erneut versuchen</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRemoveLegacyService">Alten Dienst entfernen</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyServiceRemoveFailed">Der alte Dienst konnte nicht entfernt werden (Code {0}). Installieren Sie den Launcher neu.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessPrompt">Melcosoft hat keine Berechtigung, Dateien in diesem Ordner zu ändern:&#10;{0}&#10;&#10;Zugriff auf diesen Ordner gewähren? Windows fragt nach Administratorrechten.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessGrant">Zugriff gewähren</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessStillDenied">Der Zugriff auf diesen Ordner wird weiterhin verweigert:&#10;{0}&#10;&#10;Antivirensoftware oder die Windows-Funktion „Überwachter Ordnerzugriff“ kann den Launcher blockieren. Die Spieldateien können auch in Verwendung sein: Schließen Sie das Spiel und versuchen Sie es erneut.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderReadOnly">Dieser Ordner befindet sich auf einem schreibgeschützten Laufwerk:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderUnavailable">Dieser Ordner ist nicht verfügbar:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderNetworkNoAccess">Melcosoft hat keine Berechtigung, Dateien in diesem Netzwerkordner zu ändern:&#10;{0}&#10;&#10;Bitten Sie den Besitzer des Netzwerkordners um Schreibzugriff.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderHelperMissing">Dateien, die der Launcher zum Gewähren des Zugriffs benötigt, fehlen. Installieren Sie den Launcher neu.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessFailed">Der Zugriff konnte nicht gewährt werden: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftPendingInstallNeedsAccess">Der Download von {0} kann nicht fortgesetzt werden: Melcosoft hat keine Berechtigung, Dateien in {1} zu ändern. Klicken Sie hier, um Zugriff zu gewähren.</sys:String>
 </ResourceDictionary>

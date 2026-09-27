@@ -95,6 +95,7 @@
         public const string RegionRussia = "LOCMelcosoftRegionRussia";
         public const string RegionSouthAmerica = "LOCMelcosoftRegionSouthAmerica";
         public const string RegionChina = "LOCMelcosoftRegionChina";
+        public const string RegionReserve = "LOCMelcosoftRegionReserve";
 
         public const string No = "LOCMelcosoftNo";
 
@@ -129,5 +130,32 @@
         public const string ViewDownloads        = "LOCMelcosoftViewDownloads";
         public const string NGamesDownloading    = "LOCMelcosoftNGamesDownloading";
         public const string DownloadsWindowTitle = "LOCMelcosoftDownloadsWindowTitle";
+
+        public const string BackendStarting = "LOCMelcosoftBackendStarting";
+        public const string BackendRestarting = "LOCMelcosoftBackendRestarting";
+        public const string BackendRestored = "LOCMelcosoftBackendRestored";
+        public const string BackendDownTitle = "LOCMelcosoftBackendDownTitle";
+        public const string BackendDownHeader = "LOCMelcosoftBackendDownHeader";
+        public const string BackendDownNotification = "LOCMelcosoftBackendDownNotification";
+        public const string BackendFilesMissing = "LOCMelcosoftBackendFilesMissing";
+        public const string BackendStartBlocked = "LOCMelcosoftBackendStartBlocked";
+        public const string BackendPortInUse = "LOCMelcosoftBackendPortInUse";
+        public const string BackendPortReserved = "LOCMelcosoftBackendPortReserved";
+        public const string BackendOtherSession = "LOCMelcosoftBackendOtherSession";
+        public const string BackendLegacyService = "LOCMelcosoftBackendLegacyService";
+        public const string BackendCrashed = "LOCMelcosoftBackendCrashed";
+        public const string BackendNotResponding = "LOCMelcosoftBackendNotResponding";
+        public const string BackendRetry = "LOCMelcosoftBackendRetry";
+        public const string BackendRemoveLegacyService = "LOCMelcosoftBackendRemoveLegacyService";
+        public const string BackendLegacyServiceRemoveFailed = "LOCMelcosoftBackendLegacyServiceRemoveFailed";
+        public const string FolderAccessPrompt = "LOCMelcosoftFolderAccessPrompt";
+        public const string FolderAccessGrant = "LOCMelcosoftFolderAccessGrant";
+        public const string FolderAccessStillDenied = "LOCMelcosoftFolderAccessStillDenied";
+        public const string FolderReadOnly = "LOCMelcosoftFolderReadOnly";
+        public const string FolderUnavailable = "LOCMelcosoftFolderUnavailable";
+        public const string FolderNetworkNoAccess = "LOCMelcosoftFolderNetworkNoAccess";
+        public const string FolderHelperMissing = "LOCMelcosoftFolderHelperMissing";
+        public const string FolderAccessFailed = "LOCMelcosoftFolderAccessFailed";
+        public const string PendingInstallNeedsAccess = "LOCMelcosoftPendingInstallNeedsAccess";
     }
 }

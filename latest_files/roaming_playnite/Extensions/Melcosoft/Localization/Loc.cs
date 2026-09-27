@@ -97,6 +97,7 @@ namespace Melcosoft.Localization
         public static string RegionRussia => ResourceProvider.GetString(LocalizationKeys.RegionRussia);
         public static string RegionSouthAmerica => ResourceProvider.GetString(LocalizationKeys.RegionSouthAmerica);
         public static string RegionChina => ResourceProvider.GetString(LocalizationKeys.RegionChina);
+        public static string RegionReserve => ResourceProvider.GetString(LocalizationKeys.RegionReserve);
 
         public static string No => ResourceProvider.GetString(LocalizationKeys.No);
 
@@ -131,5 +132,32 @@ namespace Melcosoft.Localization
         public static string ViewDownloads        => ResourceProvider.GetString(LocalizationKeys.ViewDownloads);
         public static string NGamesDownloading    => ResourceProvider.GetString(LocalizationKeys.NGamesDownloading);
         public static string DownloadsWindowTitle => ResourceProvider.GetString(LocalizationKeys.DownloadsWindowTitle);
+
+        public static string BackendStarting => ResourceProvider.GetString(LocalizationKeys.BackendStarting);
+        public static string BackendRestarting => ResourceProvider.GetString(LocalizationKeys.BackendRestarting);
+        public static string BackendRestored => ResourceProvider.GetString(LocalizationKeys.BackendRestored);
+        public static string BackendDownTitle => ResourceProvider.GetString(LocalizationKeys.BackendDownTitle);
+        public static string BackendDownHeader => ResourceProvider.GetString(LocalizationKeys.BackendDownHeader);
+        public static string BackendDownNotification => ResourceProvider.GetString(LocalizationKeys.BackendDownNotification);
+        public static string BackendFilesMissing => ResourceProvider.GetString(LocalizationKeys.BackendFilesMissing);
+        public static string BackendStartBlocked => ResourceProvider.GetString(LocalizationKeys.BackendStartBlocked);
+        public static string BackendPortInUse => ResourceProvider.GetString(LocalizationKeys.BackendPortInUse);
+        public static string BackendPortReserved => ResourceProvider.GetString(LocalizationKeys.BackendPortReserved);
+        public static string BackendOtherSession => ResourceProvider.GetString(LocalizationKeys.BackendOtherSession);
+        public static string BackendLegacyService => ResourceProvider.GetString(LocalizationKeys.BackendLegacyService);
+        public static string BackendCrashed => ResourceProvider.GetString(LocalizationKeys.BackendCrashed);
+        public static string BackendNotResponding => ResourceProvider.GetString(LocalizationKeys.BackendNotResponding);
+        public static string BackendRetry => ResourceProvider.GetString(LocalizationKeys.BackendRetry);
+        public static string BackendRemoveLegacyService => ResourceProvider.GetString(LocalizationKeys.BackendRemoveLegacyService);
+        public static string BackendLegacyServiceRemoveFailed => ResourceProvider.GetString(LocalizationKeys.BackendLegacyServiceRemoveFailed);
+        public static string FolderAccessPrompt => ResourceProvider.GetString(LocalizationKeys.FolderAccessPrompt);
+        public static string FolderAccessGrant => ResourceProvider.GetString(LocalizationKeys.FolderAccessGrant);
+        public static string FolderAccessStillDenied => ResourceProvider.GetString(LocalizationKeys.FolderAccessStillDenied);
+        public static string FolderReadOnly => ResourceProvider.GetString(LocalizationKeys.FolderReadOnly);
+        public static string FolderUnavailable => ResourceProvider.GetString(LocalizationKeys.FolderUnavailable);
+        public static string FolderNetworkNoAccess => ResourceProvider.GetString(LocalizationKeys.FolderNetworkNoAccess);
+        public static string FolderHelperMissing => ResourceProvider.GetString(LocalizationKeys.FolderHelperMissing);
+        public static string FolderAccessFailed => ResourceProvider.GetString(LocalizationKeys.FolderAccessFailed);
+        public static string PendingInstallNeedsAccess => ResourceProvider.GetString(LocalizationKeys.PendingInstallNeedsAccess);
     }
 }

@@ -96,6 +96,7 @@
     <sys:String x:Key="LOCMelcosoftRegionRussia">Росія</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionSouthAmerica">Південна Америка</sys:String>
     <sys:String x:Key="LOCMelcosoftRegionChina">Китай</sys:String>
+    <sys:String x:Key="LOCMelcosoftRegionReserve">Резерв {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftSelectedRegion">Вибраний регіон завантаження: {0}</sys:String>
 
     <sys:String x:Key="LOCMelcosoftNo">Ні</sys:String>
@@ -132,4 +133,31 @@
     <sys:String x:Key="LOCMelcosoftDownloadsWindowTitle">Завантаження</sys:String>
     <sys:String x:Key="LOCMelcosoftNGamesDownloading">Ігор завантажується: {0}</sys:String>
     <sys:String x:Key="LOCMelcosoftViewDownloads">Завантаження</sys:String>
+
+    <sys:String x:Key="LOCMelcosoftBackendStarting">Запуск фонового процесу Melcosoft...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestarting">Фоновий процес Melcosoft зупинився. Поки він не запущений, лаунчер може працювати некоректно. Перезапуск...</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRestored">Фоновий процес Melcosoft знову працює.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownTitle">Фоновий процес Melcosoft</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownHeader">Фоновий процес Melcosoft не працює. Поки він не запущений, лаунчер може працювати некоректно.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendDownNotification">Фоновий процес Melcosoft не працює. Натисніть тут, щоб дізнатися подробиці.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendFilesMissing">Відсутні файли фонового процесу:&#10;{0}&#10;&#10;Їх може видалити антивірус. Додайте папку {1} до винятків антивірусу та перевстановіть лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendStartBlocked">Windows або антивірус заблокували запуск фонового процесу ({0}). Додайте папку {1} до винятків антивірусу.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortInUse">Порт {0} зайнятий іншою програмою: {1}. Закрийте цю програму та спробуйте ще раз.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendPortReserved">Windows зарезервувала порт {0} для іншого компонента, наприклад Hyper-V або WSL. Перезавантажте комп'ютер та спробуйте ще раз.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendOtherSession">Melcosoft відкрито в іншому обліковому записі Windows. Закрийте його там та спробуйте ще раз.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyService">Стару службу Melcosoft досі встановлено, і вона блокує фоновий процес. Видалити стару службу зараз? Windows запитає права адміністратора.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendCrashed">Фоновий процес несподівано завершився (код виходу {0}).</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendNotResponding">Фоновий процес не відповідає.</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRetry">Повторити</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendRemoveLegacyService">Видалити стару службу</sys:String>
+    <sys:String x:Key="LOCMelcosoftBackendLegacyServiceRemoveFailed">Не вдалося видалити стару службу (код {0}). Перевстановіть лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessPrompt">Melcosoft не має прав на зміну файлів у цій папці:&#10;{0}&#10;&#10;Надати доступ до цієї папки? Windows запитає права адміністратора.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessGrant">Надати доступ</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessStillDenied">Доступ до цієї папки досі заборонено:&#10;{0}&#10;&#10;Лаунчер може блокувати антивірус або функція Windows «Контрольований доступ до папок». Також файли гри можуть бути зайняті: закрийте гру та спробуйте ще раз.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderReadOnly">Ця папка розташована на диску, доступному лише для читання:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderUnavailable">Ця папка недоступна:&#10;{0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderNetworkNoAccess">Melcosoft не має прав на зміну файлів у цій мережевій папці:&#10;{0}&#10;&#10;Попросіть власника мережевої папки надати доступ на запис.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderHelperMissing">Відсутні файли, потрібні лаунчеру для надання доступу. Перевстановіть лаунчер.</sys:String>
+    <sys:String x:Key="LOCMelcosoftFolderAccessFailed">Не вдалося надати доступ: {0}</sys:String>
+    <sys:String x:Key="LOCMelcosoftPendingInstallNeedsAccess">Завантаження {0} не може продовжитися: Melcosoft не має прав на зміну файлів у {1}. Натисніть тут, щоб надати доступ.</sys:String>
 </ResourceDictionary>
