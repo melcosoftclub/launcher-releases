@@ -97,7 +97,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• Sincronizar — sincroniza el catálogo de juegos y la información de archivos con los servidores de Melcosoft.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• Informe de errores — si algo falla, usa este botón para enviar un informe al equipo de soporte.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">Para abrir varias ventanas del mismo juego al mismo tiempo, haz clic derecho en el juego y selecciona "Iniciar otra instancia".</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  Asegúrate de seleccionar la región de descarga correcta. Usar la región incorrecta puede causar errores durante descargas, sincronizaciones, actualizaciones y otras operaciones.</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">Asegúrate de seleccionar la región de descarga correcta. Usar la región incorrecta puede causar errores durante descargas, sincronizaciones, actualizaciones y otras operaciones.</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">Entendido</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">No mostrar de nuevo</sys:String>
     <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">Iniciar otra instancia</sys:String>

@@ -113,7 +113,7 @@
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarSync">• 同步 — 與 Melcosoft 伺服器同步遊戲目錄及檔案資訊。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeToolbarError">• 錯誤報告 — 若發生問題，可送交報告至支援團隊。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeMultiLaunchTip">若要同時開啟同一遊戲的多個視窗，請對該遊戲按滑鼠右鍵並選擇「啟動另一個執行緒」。</sys:String>
-    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">⚠  請務必選擇正確的下載地區。選擇錯誤的地區可能導致下載、同步、更新等操作出現錯誤。</sys:String>
+    <sys:String x:Key="LOCMelcosoftWelcomeRegionWarning">請務必選擇正確的下載地區。選擇錯誤的地區可能導致下載、同步、更新等操作出現錯誤。</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeGotIt">知道了</sys:String>
     <sys:String x:Key="LOCMelcosoftWelcomeDontShowAgain">不再顯示</sys:String>
     <sys:String x:Key="LOCMelcosoftLaunchAnotherInstance">啟動另一個執行緒</sys:String>
